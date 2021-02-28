@@ -1,0 +1,33 @@
+<form name="ddb-game-log-ownership-setup" class="flexcol" autocomplete="off">
+    <h2 class="module-header">Module ownership settings</h2>
+    <div class="form-group submenu">
+        <label>Current owner: </label>
+        <input type="text" value="{{owner/name}}" readonly disabled />
+    </div>
+    <div class="form-group submenu">
+        <label>Ownership transfer</label>
+        <button type="button" data-ddb-transfer-ownership-button="true" name="ddb-game-log.ownership-transfer" {{#if owner/active}}disabled{{/if}}>
+            <i class="fas fa-random"></i>
+            <label>Transfer ownership to me</label>
+        </button>
+        {{#if owner/active}}
+            <p class="notes"><i class="fas fa-exclamation-triangle" style="color:#ff5500;"></i> Cannot transfer ownership, the current owner is online.</p>
+        {{else}}
+            <p class="notes"><i class="fas fa-check-circle" style="color:#00801c;"></i> You can transfer module ownership to yourself.</p>
+        {{/if}}
+    </div>
+    <p class="notification info">
+        <strong>When and how to transfer module ownership:</strong><br><br>
+        * If you have multiple users with GM permission and the user who installed and activated the module is offline, you can take over module ownership. <br/><br>
+        * This means that the websocket connection is established with you and not with the previous owner. <br/><br>
+        * The primary GM user can take back ownership any time when you are offline.<br><br>
+        * Patreon supporter rewards will not be transferred.
+    </p>
+    <br>
+    <footer class="sheet-footer flexrow">
+        <button type="submit" name="submit">
+            <i class="fas fa-exit"></i> Close window
+        </button>
+    </footer>
+</form>
+

@@ -1,0 +1,69 @@
+<form name="ddb-game-log-membership-setup" class="flexcol" autocomplete="off">
+    <h2 class="module-header">Your active membership</h2>
+    <div class="form-group">
+        <label>Current license</label>
+        <div class="form-fields">        
+            <input type="text" value="{{cap data/membership/name}}" readonly disabled/>
+        </div>
+    </div>
+    {{#if data/hasToken }}
+    <div class="form-group">
+        <label>Your token</label>
+        <div class="form-fields">        
+            <input type="text" value="{{data/token}}" readonly disabled/>
+        </div>
+        <p class="notes">If you found an issue please include this in support requests.<br/>Please <strong>do not share your token</strong> with anyone.</p>
+    </div>
+    {{/if}}
+    <br>
+    <h2 class="module-header">Manage your membership</h2>
+    {{#if data/hasToken}}
+        <div class="form-group submenu">
+            <label>Choose a package which fits you the most</label>
+            <button type="button" name="ddb-game-log.membership-upgrade-button" onclick="javascript: window.open('{{data/patreonUrl}}', '_blank');">
+                <i class="fas fa-credit-card"></i>
+                <label>Manage your membership</label>
+            </button>
+        </div>
+    {{else}}
+        <div class="form-group submenu">
+            <label>Get a membership and unlock extra rewards</label>
+            <button type="button" name="ddb-game-log.membership-upgrade-button" onclick="javascript: window.open('{{data/patreonUrl}}', '_blank');">
+                <i class="fas fa-star"></i>
+                <label>Grab a membership</label>
+            </button>
+        </div>
+    {{/if}}
+
+    {{#if data/hasToken}}
+        <div class="form-group submenu">
+            <label>Disconnect from Patreon</label>
+            <button type="button" name="ddb-game-log.deauthorize-patreon-button" onclick="javascript: {{data/deauthFn}};">
+                <i class="fas fa-plug"></i>
+                <label>Deauthorize</label>
+            </button>
+        </div>
+    {{else}}
+        <div class="form-group submenu">
+            <label>Connect with patreon</label>
+            <button type="button" name="ddb-game-log.connect-with-patreon-button" onclick="javascript: window.open('{{data/authUrl}}', '_blank');">
+                <i class="fas fa-plug"></i>
+                <label>Authorize</label>
+            </button>
+        </div>
+    {{/if}}
+    <br>
+    <h2 class="module-header">Supporting the development</h2>
+    <p class="notification info">
+        If you would like to support the development of the module please click on the <strong>Grab a membership</strong> button first, so you can see what I can offer in return for your support.<br><br>
+        * It is very important to mention that getting a paid membership <strong>is not mandatory</strong> to use the module but some of the features are not available without an active membership.<br><br>
+        * You can activate the purchased membership by clicking the <strong>Authorize</strong> button.
+    </p>
+    <br>
+    <footer class="sheet-footer flexrow">
+        <button type="submit" name="submit">
+            <i class="far fa-exit"></i> Close window
+        </button>
+    </footer>
+</form>
+
