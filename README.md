@@ -27,6 +27,8 @@ This module uses web socket connection on `port 3002`. You may need to enable th
 
 - Full automatism with Foundry. You will be able to apply damages / heals / etc
 
+___* Feature requires Patreon supporter membership___
+
 ## How to set up module
 
 ... TODO
