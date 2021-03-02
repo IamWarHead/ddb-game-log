@@ -1,6 +1,6 @@
 # DDB Gamelog module
 
-Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease.
+Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease. **No browser extensions needed**
 
 **Good to know:**
 
