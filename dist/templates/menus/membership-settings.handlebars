@@ -14,6 +14,15 @@
         </div>
         <p class="notes">If you found an issue please include this in support requests.<br/>Please <strong>do not share your token</strong> with anyone.</p>
     </div>
+    {{else}}
+        {{#if data/isValid}}
+        <div class="form-group">
+            <label>Your product key is valid until</label>
+            <div class="form-fields">        
+                <input type="text" value="{{data/expires}}" readonly disabled/>
+            </div>
+        </div>
+        {{/if}}
     {{/if}}
     <br>
     <h2 class="module-header">Manage your membership</h2>
@@ -27,10 +36,10 @@
         </div>
     {{else}}
         <div class="form-group submenu">
-            <label>Get a membership and unlock extra rewards</label>
+            <label>Unlock extra rewards</label>
             <button type="button" name="ddb-game-log.membership-upgrade-button" onclick="javascript: window.open('{{data/patreonUrl}}', '_blank');">
                 <i class="fas fa-star"></i>
-                <label>Grab a membership</label>
+                <label>Become a member</label>
             </button>
         </div>
     {{/if}}
@@ -53,6 +62,14 @@
         </div>
     {{/if}}
     <br>
+    {{#unless data/hasToken}}
+        <h2 class="module-header">Are you an Authorized Beta Tester?</h2>
+        <div class="form-group submenu">
+            <label>Beta tester product key</label>
+            <input type="text" value="{{data/productKey}}" name="ddb-game-log._productKey" placeholder="Enter your beta tester product key here..."/>
+        </div>
+        <br>
+    {{/unless}}
     <h2 class="module-header">Supporting the development</h2>
     <p class="notification info">
         If you would like to support the development of the module please click on the <strong>Grab a membership</strong> button first, so you can see what I can offer in return for your support.<br><br>
