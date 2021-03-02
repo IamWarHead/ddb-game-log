@@ -1,4 +1,4 @@
-# DDB Gamelog module
+# DDB Gamelog - A Foundry VTT module
 
 Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease. 
 
