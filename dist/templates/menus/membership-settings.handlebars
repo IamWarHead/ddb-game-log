@@ -5,6 +5,9 @@
         <div class="form-fields">        
             <input type="text" value="{{cap data/membership/name}}" readonly disabled/>
         </div>
+        {{#if data/showLicenseWarning}}
+            <p class="notes" style="color: #f00;"><i class="fas fa-exclamation" style="margin-right: 8px;"></i>Cannot validate your license. Double check core settings please.</p>
+        {{/if}}
     </div>
     {{#if data/hasToken }}
     <div class="form-group">
@@ -16,12 +19,14 @@
     </div>
     {{else}}
         {{#if data/isValid}}
-        <div class="form-group">
-            <label>Your product key is valid until</label>
-            <div class="form-fields">        
-                <input type="text" value="{{data/expires}}" readonly disabled/>
-            </div>
-        </div>
+            {{#unless data/showLicenseWarning}}
+                <div class="form-group">
+                    <label>Your product key is valid until</label>
+                    <div class="form-fields">        
+                        <input type="text" value="{{data/expires}}" readonly disabled/>
+                    </div>
+                </div>
+            {{/unless}}
         {{/if}}
     {{/if}}
     <br>
