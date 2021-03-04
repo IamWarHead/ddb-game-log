@@ -4,12 +4,6 @@ Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease.
 
 **No browser extensions needed for displaying rolls. :rocket:**
 
-
-
-## Good to know:
-
-This module uses web socket connection on `port 3002`. You may need to enable this port in your firewall settings to be able to use the product.
-
 ## Features:
 
 - Displaying rolls from D&D Beyond (Desktop)
