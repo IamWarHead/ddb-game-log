@@ -2,7 +2,13 @@
 
 Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease. 
 
-**No browser extensions needed for displaying rolls. :rocket:**
+**No browser extensions, no iframes needed and literally you can roll for EVERYTHING.:rocket:**
+
+#### D&D Beyond (on desktop) and the D&D Beyond Player app are also supported. 
+#### Grab your phone and play with ease!
+
+![DDB Gamelog](http://ddbgamelog.datapoint.hu/images/tutorial/demo1.gif)
+
 
 ## Features:
 
