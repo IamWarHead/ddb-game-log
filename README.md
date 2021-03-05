@@ -2,9 +2,9 @@
 
 Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease. 
 
-&nbsp;
+---
 
-#### ✅ No browser extensions or iframes needed and literally you can roll for [EVERYTHING].
+#### ✅ No browser extensions or iframes needed and literally you can roll for [EVERY SINGLE THING].
 #### :rocket: D&D Beyond (on desktop) and the D&D Beyond Player app (iOS & Android) are also supported. 
 #### :iphone: Grab your phone and play with ease!
 
@@ -26,9 +26,9 @@ Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease.
 
 ## Upcoming features
 
-- D&D Beyond player importer from campaign to make beyond player id / foundry vtt player id mapping significantly faster
-- Discord integration (displaying your rolls on a specified discord channel)
-- D&D Beyond roll history import
+- D&D Beyond player importer from campaign to make beyond player id / foundry vtt player id mapping significantly faster*
+- Discord integration (displaying your rolls on a specified discord channel)*
+- D&D Beyond roll history import*
 
 ## Long term goals
 
