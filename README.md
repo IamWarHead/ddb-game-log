@@ -8,8 +8,10 @@ Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease.
 #### :rocket: D&D Beyond (on desktop) and the D&D Beyond Player app (iOS & Android) are also supported. 
 #### :iphone: Grab your phone and play with ease!
 
+
 ![DDB Gamelog](http://ddbgamelog.datapoint.hu/images/tutorial/demo1.gif)
 
+&nbsp;
 
 ## Features:
 
@@ -36,7 +38,11 @@ ___* Feature requires Patreon supporter membership___
 
 ## How to set up module
 
-... TODO
+[Click here for step by step instructions](https://github.com/IamWarHead/ddb-game-log/wiki)
+
+## IamWarHead's Software Bakery - Discord server
+
+Join my discord server and tell me your ideas, ask your questions or report your bugs! Take part of the development, be part of the community!
 
 
 ## Copyright
