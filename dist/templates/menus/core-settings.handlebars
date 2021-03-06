@@ -5,19 +5,27 @@
     <div class="form-group">
         <label>DDB Cobalt Cookie</label>
         <div class="form-fields">        
-            <input type="password" name="ddb-game-log.cobalt" value="{{coreSettings/cobalt}}" placeholder="Enter your cobalt session cookie here">
-        </div>
-    </div>
-     <div class="form-group">
-        <label>Campaign ID</label>
-        <div class="form-fields">        
-            <input type="text" name="ddb-game-log.gameId" value="{{coreSettings/gameId}}" placeholder="Enter your campaign url or id here..." />
+            <input type="password" class="ddb-game-log-cobalt-input" name="ddb-game-log.cobalt" value="{{coreSettings/cobalt}}" placeholder="Enter your cobalt cookie here">
         </div>
     </div>
     <div class="form-group">
         <label>User ID</label>
         <div class="form-fields">        
-            <input type="text" name="ddb-game-log.userId" value="{{coreSettings/userId}}" placeholder="Enter your user id here..." />
+            <input type="text" class="ddb-game-log-userId-input" name="ddb-game-log.userId" value="{{coreSettings/userId}}" placeholder="Enter your user id here..." />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Campaign ID</label>
+        <div class="form-fields">        
+            <input type="text" name="ddb-game-log.gameId" class="ddb-game-log-game-id-input" value="{{coreSettings/gameId}}" placeholder="Enter your campaign url or id here..." />
+        </div>
+    </div>
+    <div><hr></div>
+    <p>If you collected the necessary data with DDB Data Grabber please paste it from your clipboard into the input field below</p>
+    <div class="form-group">
+        <label>DDB Data Grabber</label>
+        <div class="form-fields">        
+            <input class="ddb-game-log-data-grabber-input" type="password" placeholder="Enter DDB Data Grabber string here..." />
         </div>
     </div>
     <br>
@@ -33,7 +41,7 @@
         {{#if (objlen coreSettings/entities)}}
             {{#each coreSettings/entities}}
             <div class="form-group submenu ddb-game-log-form-group ddb-game-log-form-group-entities" data-entity-key="{{@key}}">
-                <input type="number" value="{{this.[0]}}" placeholder="Enter D&D Beyond userId here...">
+                <input type="number" value="{{this.[0]}}" placeholder="Enter a D&D Beyond userId here...">
                 <select>
                 {{#if ../coreSettings/players/length}}
                     {{#each ../coreSettings/players}}
