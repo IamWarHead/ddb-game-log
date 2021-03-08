@@ -44,6 +44,9 @@ ___* Feature requires Patreon supporter membership___
 
 Join my discord server and tell me your ideas, ask your questions or report your bugs! Take part of the development, be part of the community!
 
+## Known incompatibility
+
+:exclamation: Beyond20 unfortunately blocking the Game Log feature of DND Beyond, it is not passing the roll data to the socket server. In addition to this **you have to disable the Beyond20 Chrome Extension and the module too** or DDB Gamelog won't be able to display your rolls.
 
 ## Copyright
 
