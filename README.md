@@ -4,7 +4,7 @@ Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease.
 
 ---
 
-# ANNOUNCEMENT: D&D BEYOND IS DOWN. THE MODULE WILL BE UP AND RUNNING WHEN THE GUYS @ Beyond WILL GET THEIR APIS RESURRECTED.
+# ANNOUNCEMENT: D&D Beyond is currently down. The module will be up and running when the guys @ beyond will have their api's resurrected. :(
 
 ---
 
