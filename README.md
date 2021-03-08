@@ -4,10 +4,6 @@ Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease.
 
 ---
 
-# ANNOUNCEMENT: D&D Beyond is currently down. The module will be up and running when the guys @ beyond will have their api's resurrected. :(
-
----
-
 #### ✅ No browser extensions or iframes needed and literally you can roll for [EVERY SINGLE THING].
 #### :rocket: D&D Beyond (on desktop) and the D&D Beyond Player app (iOS & Android) are also supported. 
 #### :iphone: Grab your phone and play with ease!
