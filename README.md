@@ -50,7 +50,7 @@ ___* Feature requires Patreon supporter membership___
 
 ## IamWarHead's Software Bakery - Discord server
 
-Join my discord server and tell me your ideas, ask your questions or report your bugs! Take part of the development, be part of the community!
+[Join my discord server](https://discord.gg/HSTtrphyFg) and tell me your ideas, ask your questions or report your bugs! Take part of the development, be part of the community!
 
 &nbsp;
 
