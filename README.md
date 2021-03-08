@@ -42,6 +42,13 @@ ___* Feature requires Patreon supporter membership___
 
 &nbsp;
 
+## Known issues
+
+**Getting disconnected and reconnected every 2 hours**
+D&D Beyond closes websocket connection every 2 hours so its a proper working mechanics if the module is reconnecting automatically.
+
+&nbsp;
+
 ## Known incompatibilities
 
 :exclamation: Beyond20 unfortunately blocking the Game Log feature of DND Beyond, it is not passing the roll data to the socket server. In addition to this **you have to disable the Beyond20 Chrome Extension and the module too** or DDB Gamelog won't be able to display your rolls.
@@ -53,6 +60,10 @@ ___* Feature requires Patreon supporter membership___
 [Join my discord server](https://discord.gg/HSTtrphyFg) and tell me your ideas, ask your questions or report your bugs! Take part of the development, be part of the community!
 
 &nbsp;
+
+## Sidenotes
+
+English is not my main language, if you found any mistakes (you will, for sure 😥) please let me know and I will correct it.
 
 ## Copyright
 
