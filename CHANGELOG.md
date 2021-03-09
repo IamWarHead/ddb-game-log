@@ -1,5 +1,8 @@
 # Version history
 
+## Version 0.7.16
+- It's a possible fix for Issue #15
+
 ## Version 0.7.15
 - Implements client side version checking
 - Adds extra checks to be able to address and reproduce Issue #15
