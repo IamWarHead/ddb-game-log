@@ -1,93 +1,23 @@
 <form name="ddb-game-log-core-setup" class="flexcol" autocomplete="off">
-    <h2 class="module-header">Basic settings</h2>
-    <p>We need your <strong>cobalt cookie, campaign id and user id</strong> to be able to pull your player's roll data from D&D Beyond.</p>
-    <div><hr></div>
-    <div class="form-group">
-        <label>DDB Cobalt Cookie</label>
-        <div class="form-fields">        
-            <input type="password" class="ddb-game-log-cobalt-input" name="ddb-game-log.cobalt" value="{{coreSettings/cobalt}}" placeholder="Enter your cobalt cookie here">
-        </div>
-    </div>
-    <div class="form-group">
-        <label>User ID</label>
-        <div class="form-fields">        
-            <input type="text" class="ddb-game-log-userId-input" name="ddb-game-log.userId" value="{{coreSettings/userId}}" placeholder="Enter your user id here..." />
-        </div>
-    </div>
-    <div class="form-group">
-        <label>Campaign ID</label>
-        <div class="form-fields">        
-            <input type="text" name="ddb-game-log.gameId" class="ddb-game-log-game-id-input" value="{{coreSettings/gameId}}" placeholder="Enter your campaign url or id here..." />
-        </div>
-    </div>
-    <div><hr></div>
-    <p>If you collected the necessary data with DDB Data Grabber please paste it from your clipboard into the input field below</p>
-    <div class="form-group">
-        <label>DDB Data Grabber (<a href="https://github.com/IamWarHead/ddb-data-grabber/releases/latest/download/ddb-data-grabber.zip" target="_blank">Download</a>)</label>
-        <div class="form-fields">        
-            <input class="ddb-game-log-data-grabber-input" type="password" placeholder="Enter DDB Data Grabber string here..." />
-        </div>
-    </div>
+    
+    <nav class="sheet-tabs tabs" data-group="sections">
+        <a class="item" data-tab="basic"><i class="fas fa-dice-d20"></i> Basic</a>
+        <a class="item" data-tab="advanced"><i class="fas fa-cogs"></i> Advanced</a>
+        {{!-- <a class="item" data-tab="integrations"><i class="fas fa-plug"></i> Integrations</a> --}}
+        <a class="item" data-tab="debug"><i class="fas fa-bug"></i> Debug</a>
+    </nav>
+
+    <section class="content">
+        {{> partials/settings/basic}}
+        {{> partials/settings/advanced}}
+        {{!-- {{> partials/settings/integrations}} --}}
+        {{> partials/settings/debug}}       
+    </section>
     <br>
-    <h2 class="module-header">Advanced settings</h2>
-    <p>If you would like to display the name of the character in the roll message you have to connect your player's D&D Beyond Player id with their ingame character name.</p>
-    <div><hr></div>
-    <div class="form-group submenu">
-        <label>D&amp;D Beyond player ID</label>
-        <label>Foundry player name</label>
-        <a class="ddb-game-log-add-item-icon" title="Add"><i class="fas fa-plus"></i></a>
-    </div>
-    <div class="ddb-game-log-data-container">
-        {{#if (objlen coreSettings/entities)}}
-            {{#each coreSettings/entities}}
-            <div class="form-group submenu ddb-game-log-form-group ddb-game-log-form-group-entities" data-entity-key="{{@key}}">
-                <input type="number" value="{{this.[0]}}" placeholder="Enter a D&D Beyond userId here...">
-                <select>
-                {{#if ../coreSettings/players/length}}
-                    {{#each ../coreSettings/players}}
-                        <option value="{{this}}" {{isSelected ../this/[1] this}}>{{this}}</option>
-                    {{/each}}
-                {{/if}}
-                </select>
-                <a class="ddb-game-log-remove-item-icon" title="Remove" data-key="{{@key}}"><i class="fas fa-trash"></i></a>
-            </div>
-            {{/each}}
-        {{else}}
-            <p class="notification info">Click on the + sign to add entries.</p>
-        {{/if}}
-    </div>
-    <br>
-    <h2 class="module-header">Debug settings</h2>
-    {{#if coreSettings/debug}}
-     <!-- Build -->
-     <div class="form-group">
-        <label>Build</label>
-        <div class="form-fields">        
-            <input type="text" value="{{cap coreSettings/buildEnv}}_{{coreSettings/buildVer}}" readonly disabled/>
-        </div>
-    </div>
-    <!-- UUID -->
-    <div class="form-group">
-        <label>Your unique id</label>
-        <div class="form-fields">        
-            <input type="text" value="{{coreSettings/_uuid}}" readonly disabled/>
-        </div>
-        <p class="notes">If you found an issue please include this in support requests.<br/>Please <strong>do not share your UUID</strong> with anyone.</p>
-    </div>
-    <div class="form-group">
-        <hr>
-    </div>
-    {{/if}}
-    <div class="form-group">
-        <label>Debug mode</label>
-        <div class="form-fields">        
-            <input type="checkbox" name="ddb-game-log.debug" {{#if coreSettings/debug}}checked{{/if}}/>
-        </div>
-    </div>
+
     <footer class="sheet-footer flexrow">
         <button type="submit" name="submit">
             <i class="far fa-save"></i> Save Changes
         </button>
     </footer>
 </form>
-

@@ -1,5 +1,10 @@
 # Version history
 
+## Version 0.7.17
+- Core settings view has been revamped
+- Adds extra validation to core settings
+- Adds hints to core settings
+
 ## Version 0.7.16
 - It's a possible fix for Issue #15
 
