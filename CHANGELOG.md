@@ -1,5 +1,11 @@
 # Version history
 
+## Version 0.7.18
+- Fixes reconnection logic
+- Removed logging of unnecessary debug messages, issue was fixed before
+- Fixes an issue with authorization process, kudos for h2ocelot
+- Adds lazy termination event handlers
+
 ## Version 0.7.17
 - Core settings view has been revamped
 - Adds extra validation to core settings
