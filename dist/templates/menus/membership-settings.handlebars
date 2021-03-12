@@ -6,7 +6,7 @@
             <input type="text" value="{{cap data/membership/name}}" readonly disabled/>
         </div>
         {{#if data/showLicenseWarning}}
-            <p class="notes" style="color: #f00;"><i class="fas fa-exclamation" style="margin-right: 8px;"></i>Cannot validate your license. Double check core settings please.</p>
+            <p class="notes"><i class="fas fa-exclamation" style="margin-right: 8px;"></i>Cannot validate your license without setting up your <a style="color: blue;" onclick="javascipt: ddbgamelog.openMenu('core_settings');">Core Settings</a> properly.</p>
         {{/if}}
     </div>
     {{#if data/hasToken }}
@@ -60,10 +60,11 @@
     {{else}}
         <div class="form-group submenu">
             <label>Connect with patreon</label>
-            <button type="button" name="ddb-game-log.connect-with-patreon-button" onclick="javascript: window.open('{{data/authUrl}}', '_blank');">
+            <button type="button" name="ddb-game-log.connect-with-patreon-button" onclick="javascript: window.open('{{data/authUrl}}', '_blank');" {{#if data/showLicenseWarning}}disabled{{/if}}>
                 <i class="fas fa-plug"></i>
                 <label>Authorize</label>
             </button>
+            {{#if data/showLicenseWarning}}<p class="notes"><i class="fas fa-exclamation" style="margin-right: 8px;"></i>You cannot authorize with Patreon without setting up your <a style="color: blue;" onclick="javascipt: ddbgamelog.openMenu('core_settings')">Core Settings</a> properly.</p>{{/if}}
         </div>
     {{/if}}
     <br>
@@ -71,7 +72,8 @@
         <h2 class="module-header">Are you an Authorized Beta Tester?</h2>
         <div class="form-group submenu">
             <label>Beta tester product key</label>
-            <input type="text" value="{{data/productKey}}" name="ddb-game-log._productKey" placeholder="Enter your beta tester product key here..."/>
+            <input type="text" value="{{data/productKey}}" name="ddb-game-log._productKey" placeholder="Enter your beta tester product key here..." {{#if data/showLicenseWarning}}disabled{{/if}}/>
+            {{#if data/showLicenseWarning}}<p class="notes"><i class="fas fa-exclamation" style="margin-right: 8px;"></i>You cannot use your product key without setting up your <a style="color: blue;" onclick="javascipt: ddbgamelog.openMenu('core_settings')">Core Settings</a> properly.</p>{{/if}}
         </div>
         <br>
     {{/unless}}
