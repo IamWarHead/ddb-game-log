@@ -1,5 +1,10 @@
 # Version history
 
+## Version 0.8.0
+- Adds Discord Integration feature (Gamelog PRO+)
+- Connection improvements
+- Fixes an issue with negative constants, kudos for @gazoir
+
 ## Version 0.7.18
 - Fixes reconnection logic
 - Removed logging of unnecessary debug messages, issue was fixed before
