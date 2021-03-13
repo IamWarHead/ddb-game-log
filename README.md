@@ -23,11 +23,11 @@ Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease.
 - Custom themed roll messages*
 - Dice So Nice! integration*
 - Roll result breakdown*
+- Discord Integration* (display your rolls from dndbeyond on a channel on your discord server)
 
 ## Upcoming features
 
 - D&D Beyond player importer from campaign to make beyond player id / foundry vtt player id mapping significantly faster*
-- Discord integration (displaying your rolls on a specified discord channel)*
 - D&D Beyond roll history import*
 
 ## Long term goals
