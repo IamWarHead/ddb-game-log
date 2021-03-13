@@ -23,8 +23,10 @@ Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease.
 - Custom themed roll messages*
 - Dice So Nice! integration*
 - Roll result breakdown*
+
+## New Features:
 - Discord Integration* (display your rolls from dndbeyond on a channel on your discord server)
-  - Adds support for displaying your custom D&D Beyond dice sets in discord messages.
+  - Adds support for displaying your player's custom D&D Beyond dice sets in discord messages.
 
 ## Upcoming features
 
