@@ -1,5 +1,8 @@
 # Version history
 
+## Version 0.8.1
+- Fixes an issue with gameId checks
+
 ## Version 0.8.0
 - Adds Discord Integration feature (Gamelog PRO+)
 - Connection improvements
