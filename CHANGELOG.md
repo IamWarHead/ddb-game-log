@@ -1,5 +1,8 @@
 # Version history
 
+## Version 0.8.3
+- Fixes an issue with gameIds
+
 ## Version 0.8.2
 - Fixes a critical issue with DDB / Foundry Player mapping
 - Kudos for @venom986 for reporting the issue
