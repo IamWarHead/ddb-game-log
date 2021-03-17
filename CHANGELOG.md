@@ -1,12 +1,13 @@
 # Version history
 
-## Version 0.9.1
+## Version 0.9.2
 - Fixes an issue with CUB (Kudos for @fredben78 for reporting and helping me to address the issue)
 - Fixes an issue with Dice So Nice! integration (Kudos for @rmasoni for reporting and helping me to address the issue)
 - Fixes an issue with chat message rendering and styling (2x Kudos for @rmasoni for reporting and helping me to address the issue)
 - Full message handling rework
 - Adds auto import feature (MrPrimate's DDB Importer is a dependency) for Gamelog Basic members and above.
 - Fixes an issue with chat message button handlers
+- Fixes an issue with Dice So Nice! integration when an inactive user object was passed to it. Falling back to gm user in this case from now.
 
 ## Version 0.8.3
 - Fixes an issue with gameIds
