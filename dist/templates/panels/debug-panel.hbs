@@ -1,0 +1,12 @@
+<div id="ddb-game-log-debug-panel" class="{{#unless data/isVisible}}hidden{{/unless}}">
+    <h2>{{title}}</h2>
+    <ul>
+        <li class="backend" data-value="{{data/backend}}">DDB Gamelog Backend Server <span><i class="status-indicator"></i></span></li>
+        <li class="ddbserver" data-value="{{data/beyond}}">D&D Beyond Server <span><i class="status-indicator"></i></span></li>
+        <li class="patreon" data-value="{{data/auth}}">Authorized with Patreon <span><i class="status-indicator"></i></span></li>
+        {{#if data/needUpdate}}
+            <li><hr></li>
+            <li class="update" data-value="{{data/needUpdate}}">New version available, please update<span><i class="fas fa-sync-alt"></i></span></li>
+        {{/if}}
+    </ul>
+</div>
