@@ -1,5 +1,11 @@
 # Version history
 
+## Version 0.10.0
+- Implements Initiative Tracking (combatants initiative value will be set upon rolling for initiative on D&D Beyond | Gamelog Lite+)
+- Implements Item and Spell Description cards (Gamelog Pro+)
+- Adds basic automatism configs to core settings/integrations
+- Adds chat card configs to core settings / integrations
+
 ## Version 0.9.3
 - Code cleanup, some minor refact
 - Adds debug info to settings sidebar panel if `debug mode` is on
