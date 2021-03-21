@@ -1,5 +1,8 @@
 # Version history
 
+## Version 0.10.1
+- Fixes an issue with Actor filtering, npcs will not show up in mapping from now.
+
 ## Version 0.10.0
 - Implements Initiative Tracking (combatants initiative value will be set upon rolling for initiative on D&D Beyond | Gamelog Lite+)
 - Implements Item and Spell Description cards (Gamelog Pro+)
