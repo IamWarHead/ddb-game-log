@@ -12,4 +12,11 @@ module.exports = `
     </div>
     <p class="notes">It will style chat messages like on D&D Beyond</p>
 </div>
+<div class="form-group">
+    <label>Border color override</label>
+    <div class="form-fields">        
+        <input type="checkbox" name="ddb-game-log.override_message_borders" {{#if coreSettings/integrations/overrideBorderColor}}checked{{/if}}/>
+    </div>
+    <p class="notes">Message borders will have the color of the player who rolled.</p>
+</div>
 `;
