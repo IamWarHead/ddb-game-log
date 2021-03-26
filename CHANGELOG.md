@@ -1,5 +1,9 @@
 # Version history
 
+## Version 0.10.2
+- Adds message border color override (with player color)
+- Fixes an issue with the debug panel (it was not rendering sometimes)
+
 ## Version 0.10.1
 - Fixes an issue with Actor filtering, npcs will not show up in mapping from now.
 
