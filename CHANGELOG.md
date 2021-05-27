@@ -1,5 +1,24 @@
 # Version history
 
+## Version 1.2.2
+
+- Adds compatibility fixes (Foundry v0.8.x)
+- Changed minimum core requirement to 0.8.3
+- Implements proper roll object for Foundry
+- Adds core version checking
+- Adds version mismatch info
+- Adds official monster roll support
+- Adds Quick Actions (apply damage, etc...)
+- Enables npc listings in the alternate mapping logic (for monster rolls)
+- Implements DDB profile images in roll messages
+- Adds roll visibility config for monster rolls to integration config panel
+- Adds entity badges to roll messages (pc / monster)
+- Fixes discarded dice images in roll messages
+- Adds roll privacy support
+- Adds support to use DDB Importer's data to auto create mapping between D&D Beyond monster entity and Foundry NPC Actor.
+- Connection improvements with D&D Beyond and DDB Gamelog backend services
+- Various small fixes
+
 ## Version 0.10.2
 - Adds message border color override (with player color)
 - Fixes an issue with the debug panel (it was not rendering sometimes)

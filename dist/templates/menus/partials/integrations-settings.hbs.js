@@ -1,12 +1,13 @@
 module.exports = `
     <div class="tab" data-tab="integrations" data-group="sections">
         {{#if (checkMembershipLevel coreSettings/membership 0)}}
-            {{> partials/settings/integrations/pendingrolls}}
+            {{> partials/settings/integrations/rollsettings}}
             {{> partials/settings/integrations/automatism/basic}}
         {{/if}}
         {{#if (checkMembershipLevel coreSettings/membership 1)}}
             {{> partials/settings/integrations/customthemes}}
             {{> partials/settings/integrations/informativerolls}}
+            {{> partials/settings/integrations/avatarsettings}}
         {{/if}}
         {{#if (checkMembershipLevel coreSettings/membership 2)}}
             {{> partials/settings/integrations/playerapp}}

@@ -6,11 +6,11 @@ module.exports = `
         <div class="form-group">
             <label>Use alternate actor mapping</label>
             <div class="form-fields">
-                <input type="checkbox" name="ddb-game-log.use_alternate_actor_mapping" {{#if coreSettings/useAlternateActorMapping}}checked{{/if}}>
+                <input type="checkbox" name="ddb-game-log.use_alternate_actor_mapping" {{#unless coreSettings/mapping/enabled}}disabled{{/unless}} {{#if coreSettings/mapping/useAlternateActorMapping}}checked{{/if}}>
             </div>
             <p class="notes">
                 <i class="fas fa-exclamation-triangle"></i> <strong>EXPERIMENTAL FEATURE</strong><br>
-                Every player character will be displayed (even if it doesn't have an assigned Owner)
+                Every player character (and non-player character) will be displayed (even if it doesn't have an assigned Owner)
             </p>
         </div>
         <div><hr></div>
@@ -33,7 +33,7 @@ module.exports = `
                 </div>
                 {{/each}}
             {{else}}
-                <p class="notification info">Please add some Player Character Actor and assign it to User with Owner permission.</p>
+                <p class="notification error">Please add some Player Character Actor and assign it to User with Owner permission.</p>
             {{/if}}
         </div>
         <div><hr></div>
@@ -41,7 +41,7 @@ module.exports = `
             <p>If you have created a new player character actor (or removed), or you assigned it to an owner (or deassigned it) please rebuild your mapping db.</p>
         </div>
         <div class="form-group">
-            <button class="ddb-game-log-sync-item-icon" type="button"><i class="fas fa-sync-alt"></i> Rebuild mapping database</button>
+            <button class="ddb-game-log-sync-item-icon" type="button" {{#unless coreSettings/mapping/enabled}}disabled{{/unless}}><i class="fas fa-sync-alt"></i> Rebuild mapping database</button>
         </div>
         <div><hr></div>
     </div>

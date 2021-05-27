@@ -12,11 +12,11 @@ module.exports = `
     <p class="notes">Turn on to visualise rolls [External module needed!]</p>
 </div>
 <div class="form-group">
-        <label>Visualization timing</label>
+        <label>Message timing</label>
     <div class="form-fields">
         <select name="ddb-game-log.dice3d_timing" {{#unless coreSettings/integrations/dice3d/moduleEnabled}}disabled{{/unless}}>
-            <option value="before" {{isSelected coreSettings/integrations/dice3d/timing "before"}}>Before the roll message</option>
-            <option value="after" {{isSelected coreSettings/integrations/dice3d/timing "after"}}>After the roll message</option>
+            <option value="before" {{isSelected coreSettings/integrations/dice3d/timing "before"}}>Before the roll animation</option>
+            <option value="after" {{isSelected coreSettings/integrations/dice3d/timing "after"}}>After the roll animation</option>
         </select>
     </div>
     <p class="notes">You can select when should it display the roll message</p>
