@@ -13,6 +13,17 @@ Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease.
 
 &nbsp;
 
+## New Features:
+
+- Official D&D Beyond Monster Roll support* 
+- Avatars in roll messages* 
+- Roll quick actions (apply damage, heal etc...)*
+- Roll privacy support*
+- Integration with DDB Importer to auto create mapping between D&D Beyond monster entity and Foundry NPC Actor*
+- Entity badges in roll messages (PC/MONSTER)* 
+
+![DDB Gamelog](https://cdn.discordapp.com/attachments/816691079931494441/847424445777182720/upc_ch_fin.png)
+
 ## Features:
 
 - Displaying rolls from D&D Beyond (Desktop)
@@ -23,14 +34,12 @@ Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease.
 - Custom themed roll messages*
 - Dice So Nice! integration*
 - Roll result breakdown*
-
-## New Features:
 - Discord Integration* (display your rolls from dndbeyond on a channel on your discord server)
-  - Adds support for displaying your player's custom D&D Beyond dice sets in discord messages.
+- Adds support for displaying your player's custom D&D Beyond dice sets in discord messages.
 
 ## Upcoming features
 
-- D&D Beyond player importer from campaign to make beyond player id / foundry vtt player id mapping significantly faster*
+- D&D Beyond Targeted rolls support
 - D&D Beyond roll history import*
 
 ## Long term goals
@@ -41,7 +50,7 @@ ___* Feature requires Patreon supporter membership___
 
 ## How to set up module
 
-[Click here for step by step instructions](https://github.com/IamWarHead/ddb-game-log/wiki)
+[Click here for step by step instructions (outdated)](https://github.com/IamWarHead/ddb-game-log/wiki)
 
 &nbsp;
 
