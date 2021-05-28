@@ -15,17 +15,21 @@ module.exports = `
     </div>
     <p class="notes">It will remove the pending roll message automatically</p>
 </div>
-<div class="form-group">
-    <label>Default Monster Roll Visibility</label>
-    <div class="form-fields">        
-        <select name="ddb-game-log.roll_visibility_monster">
-        {{#each coreSettings/integrations/rolls/opts}}
-            <option value="{{@this}}" {{isSelected ../coreSettings/integrations/rolls/visibilityMonster this}}>{{@key}}</option>
-        {{/each}}
-        </select>
+
+{{#if (checkMembershipLevel coreSettings/membership 2)}}
+    <div class="form-group">
+        <label>Default Monster Roll Visibility</label>
+        <div class="form-fields">        
+            <select name="ddb-game-log.roll_visibility_monster">
+            {{#each coreSettings/integrations/rolls/opts}}
+                <option value="{{@this}}" {{isSelected ../coreSettings/integrations/rolls/visibilityMonster this}}>{{@key}}</option>
+            {{/each}}
+            </select>
+        </div>
+        <p class="notes">It will affect the visibility of monster rolls from DND Beyond</p>
     </div>
-    <p class="notes">It will affect the visibility of monster rolls from DND Beyond</p>
-</div>
+{{/if}}
+
 {{!-- <div class="form-group">
     <label>Default Roll Visibility</label>
     <div class="form-fields">        
