@@ -1,5 +1,14 @@
 # Version history
 
+## Version 1.2.4
+
+- Fixes the flavor text collapsing issue
+- Adds a notice to membership settings panel about 1st day of the month issue at patreon
+
+## Version 1.2.3
+
+- Fixes an issue with the core settings panel which was caused by the monster roll visibility input
+
 ## Version 1.2.2
 
 - Adds compatibility fixes (Foundry v0.8.x)
