@@ -1,6 +1,6 @@
 module.exports = `
 {{!-- Basic automatism --}}
-    <h2 class="module-header">Basic Automatism</h2>
+    <h2 class="module-header">Basic Automation</h2>
     <div class="form-group">
         <label>Enable initiative tracking</label>
         <div class="form-fields">        
