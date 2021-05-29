@@ -14,11 +14,11 @@ module.exports = `
 <div class="form-group">
         <label>Message timing</label>
     <div class="form-fields">
-        <select name="ddb-game-log.dice3d_timing" {{#unless coreSettings/integrations/dice3d/moduleEnabled}}disabled{{/unless}}>
+        <select disabled name="ddb-game-log.dice3d_timing" {{#unless coreSettings/integrations/dice3d/moduleEnabled}}disabled{{/unless}}>
             <option value="before" {{isSelected coreSettings/integrations/dice3d/timing "before"}}>Before the roll animation</option>
             <option value="after" {{isSelected coreSettings/integrations/dice3d/timing "after"}}>After the roll animation</option>
         </select>
     </div>
-    <p class="notes">You can select when should it display the roll message</p>
+    <p class="notes"><i class="fas fa-exclamation-triangle"></i> In the future you can set this in the official dice so nice settings.</p>
 </div>
 `;

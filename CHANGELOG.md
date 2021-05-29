@@ -1,5 +1,14 @@
 # Version history
 
+## Version 1.2.5
+
+- Fixes an issue with the message timestamp position
+- Fixes an issue that core and membership settings panel couldn't be opened
+- Fixes: native foundry roll results couldn't be opened (Kudos for @ViolatesParity)
+- Fixes: Dice So Nice was not working if the module was enabled (Kudos for @evil_c0okie)
+- Entity badges will be hidden on rolls if the roll is not public
+- Fixes an issue with the dice images in the roll results
+
 ## Version 1.2.4
 
 - Fixes the flavor text collapsing issue
