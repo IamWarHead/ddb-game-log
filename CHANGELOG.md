@@ -1,5 +1,12 @@
 # Version history
 
+## Version 1.2.6
+
+- Fixes two serious issues, please do not hesitate to update your module
+- Adds debounce to reloads
+- Changes compatible core version to 0.8.6
+- Adds 0.8.6 compatibility fixes
+
 ## Version 1.2.5
 
 - Fixes an issue with the message timestamp position
