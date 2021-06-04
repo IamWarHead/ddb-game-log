@@ -1,5 +1,11 @@
 # Version history
 
+## Version 1.3.0
+
+- ChatCards refact to eliminate deprecation warnings
+- Implements D&D Beyond targeted rolls feature support
+- Fixes an issue with dice so nice integration
+
 ## Version 1.2.6
 
 - Fixes two serious issues, please do not hesitate to update your module

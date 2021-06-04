@@ -15,7 +15,7 @@ module.exports = `<div class="tab" data-tab="basic" data-group="sections">
         <div class="form-fields">        
             <input type="text" class="ddb-game-log-userId-input" name="ddb-game-log.userId" value="{{coreSettings/userId}}" placeholder="Enter your user id here..." />
         </div>
-        <p class="notes info">Enter your <strong>User ID</strong> here.</p>
+        <p class="notes info">Enter the <strong>User ID</strong> of the D&D Beyond Campaign Game master here.</p>
         <p class="notes error"><i class="fas fa-exclamation"></i> The data you entered appears to be invalid.</p>
     </div>
     <div class="form-group">

@@ -15,14 +15,7 @@ Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease.
 
 ## New Features:
 
-- Official D&D Beyond Monster Roll support* 
-- Avatars in roll messages* 
-- Roll quick actions (apply damage, heal etc...)*
-- Roll privacy support*
-- Integration with DDB Importer to auto create mapping between D&D Beyond monster entity and Foundry NPC Actor*
-- Entity badges in roll messages (PC/MONSTER)* 
-
-![DDB Gamelog](https://cdn.discordapp.com/attachments/816691079931494441/847424445777182720/upc_ch_fin.png)
+- D&D Beyond Targeted rolls support
 
 ## Features:
 
@@ -36,11 +29,20 @@ Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease.
 - Roll result breakdown*
 - Discord Integration* (display your rolls from dndbeyond on a channel on your discord server)
 - Adds support for displaying your player's custom D&D Beyond dice sets in discord messages.
+- Official D&D Beyond Monster Roll support* 
+- Avatars in roll messages* 
+- Roll quick actions (apply damage, heal etc...)*
+- Roll privacy support*
+- Integration with DDB Importer to auto create mapping between D&D Beyond monster entity and Foundry NPC Actor*
+- Entity badges in roll messages (PC/MONSTER)* 
+
 
 ## Upcoming features
 
-- D&D Beyond Targeted rolls support
+- Otigon's Automated Animations and JB2A support
 - D&D Beyond roll history import*
+
+![DDB Gamelog](https://cdn.discordapp.com/attachments/816691079931494441/847424445777182720/upc_ch_fin.png)
 
 ## Long term goals
 
