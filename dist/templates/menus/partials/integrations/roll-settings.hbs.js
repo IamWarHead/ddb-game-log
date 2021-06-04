@@ -16,6 +16,16 @@ module.exports = `
     <p class="notes">It will remove the pending roll message automatically</p>
 </div>
 
+{{#if (checkMembershipLevel coreSettings/membership 1)}}
+    <div class="form-group">
+        <label>Respect D&D Beyond roll targets</label>
+        <div class="form-fields">        
+            <input type="checkbox" name="ddb-game-log.roll_visibility_targeted_rolls" {{#if coreSettings/integrations/rolls/respectTargetedRolls}}checked{{/if}}/>
+        </div>
+        <p class="notes">It will affect the visibility of <strong>your users</strong> rolls from DND Beyond</p>
+    </div>
+{{/if}}
+
 {{#if (checkMembershipLevel coreSettings/membership 2)}}
     <div class="form-group">
         <label>Default Monster Roll Visibility</label>
@@ -26,7 +36,7 @@ module.exports = `
             {{/each}}
             </select>
         </div>
-        <p class="notes">It will affect the visibility of monster rolls from DND Beyond</p>
+        <p class="notes">It will affect the visibility of <strong>monster rolls</strong> from DND Beyond</p>
     </div>
 {{/if}}
 
