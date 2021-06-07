@@ -1,5 +1,10 @@
 # Version history
 
+## Version 1.3.1
+
+- Fixes an issue with the WelcomeMessage
+- Fixes an issue with the mapping. (Kudos for @venom986 for the report)
+
 ## Version 1.3.0
 
 - ChatCards refact to eliminate deprecation warnings
