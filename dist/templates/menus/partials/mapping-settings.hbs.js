@@ -15,6 +15,7 @@ module.exports = `
         </div>
         <div><hr></div>
         <div class="form-group submenu">
+            {{!-- <label class="type">Actor type</label> --}}
             <label class="right_m_10">D&amp;D Beyond Character ID</label>
             <label>Foundry Player Character</label>
         </div>
@@ -22,6 +23,7 @@ module.exports = `
             {{#if (objlen coreSettings/entities)}}
                 {{#each coreSettings/entities}}
                 <div class="form-group submenu ddb-game-log-form-group ddb-game-log-form-group-entities" data-entity-key="{{@key}}">
+                    {{!-- <span class="entityType {{getActorType @key}}"></span> --}}
                     <input type="number" value="{{this}}" placeholder="Enter a D&D Beyond CharacterID here...">
                     <select>
                     {{#if ../coreSettings/actors/length}}
