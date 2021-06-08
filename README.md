@@ -69,6 +69,8 @@ D&D Beyond closes websocket connection every 2 hours so its a proper working mec
 
 :exclamation: Users have noticed some problems when using the module in Forge instances. Issues are under investigation currently.
 
+:exclamation: Forien's Copy Environment module can cause serious issues with the settings of the module. The issue is under investigation.
+
 &nbsp;
 
 ## IamWarHead's Software Bakery - Discord server
