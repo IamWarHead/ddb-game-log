@@ -1,18 +1,39 @@
 module.exports = `
     <div class="tab" data-tab="mapping" data-group="sections">
         <h2 class="module-header">D&D Beyond / FVTT Character Mapping</h2>
-        <p>If you would like to display the name of the character in the roll message you have to connect your player's D&D Beyond CharacterID with their ingame player character.</p>
-        <div><hr></div>
+        <p>If you would like to display the name of the character in the roll message you have to connect your player's D&D Beyond CharacterID with their ingame actor.</p>
+        <div>
+            <hr>
+        </div>
+
+        <h2 class="module-header">Mapping settings</h2>
         <div class="form-group">
-            <label>Use alternate actor mapping</label>
+            <label>Display Actors without an owner</label>
             <div class="form-fields">
-                <input type="checkbox" name="ddb-game-log.use_alternate_actor_mapping" {{#unless coreSettings/mapping/enabled}}disabled{{/unless}} {{#if coreSettings/mapping/useAlternateActorMapping}}checked{{/if}}>
+                <input type="checkbox" name="ddb-game-log.mapping_enable_actors_without_owner" {{#unless coreSettings/mapping/enabled}}disabled{{/unless}} {{#if coreSettings/mapping/enableActorsWithoutOwner}}checked{{/if}}>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label>Display Non-Player Character Actors</label>
+            <div class="form-fields">
+                <input type="checkbox" name="ddb-game-log.mapping_enable_npc_actors" {{#unless coreSettings/mapping/enabled}}disabled{{/unless}} {{#if coreSettings/mapping/enableNPCActors}}checked{{/if}}>
+            </div>
+        </div>
+
+        {{#if coreSettings/integrations/ddbimporter/autoImportEnabled}}
+        <div class="form-group">
+            <label>Try to autofill the mapping</label>
+            <div class="form-fields">
+                <input type="checkbox" name="ddb-game-log.mapping_enable_ddb_importer" {{#if coreSettings/mapping/disableDDBImporterInput}}disabled{{/if}} {{#if coreSettings/mapping/enableDDBImporter}}checked{{/if}}>
             </div>
             <p class="notes">
-                <i class="fas fa-exclamation-triangle"></i> <strong>EXPERIMENTAL FEATURE</strong><br>
-                Every player character (and non-player character) will be displayed (even if it doesn't have an assigned Owner)
+                <i class="fas fa-box-open"></i> <strong>EXTERNAL MODULE DEPENDENCY</strong><br>
+                You have to install and enable DDB Importer, and you have to import your characters with DDB Importer to use this feature.
             </p>
         </div>
+        {{/if}}
+
         <div><hr></div>
         <div class="form-group submenu">
             {{!-- <label class="type">Actor type</label> --}}

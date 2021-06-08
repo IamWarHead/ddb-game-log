@@ -26,6 +26,6 @@ module.exports = `
         <div class="form-fields">        
             <input type="text" name="ddb-game-log.discord_webhook_url" value="{{coreSettings/integrations/discord/webhookUrl}}" />
         </div>
-        <p class="notes">Turn on to visualise rolls [External module needed!]</p>
+        <p class="notes">Enter the generated webhook url</p>
     </div>
 `;

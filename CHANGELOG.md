@@ -1,5 +1,10 @@
 # Version history
 
+## Version 1.3.2
+
+- Mapping rework
+- Adds some minor fixes
+
 ## Version 1.3.1
 
 - Fixes an issue with the WelcomeMessage
