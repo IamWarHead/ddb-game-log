@@ -1,5 +1,10 @@
 # Version history
 
+## Version 1.4.0
+
+- Adds JB2A / Otigon's Automated Animations support
+- Adds minor fixes and general stability improvement
+
 ## Version 1.3.2
 
 - Mapping rework
