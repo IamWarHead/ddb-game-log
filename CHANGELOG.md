@@ -1,5 +1,20 @@
 # Version history
 
+## Version 1.4.1
+
+- Fixes JB2A / Otigon's AA integration on attack rolls
+- Fixes an issue if the campaign dm was deleted and it blocked the user to pass module ownership (Kudos for @shinryux)
+- Fixes an issue with the dice breakdown gfx, it will be more visible from now (Kudos for @David_Jott)
+- Adds the possibility to make item/spell descriptions visible by default (it will use the system setting instead of a new module setting) (Kudos for @KnyghtLyght)
+- Adds the possibility to exclude rolls of ddb users if they are not existing in the mapping (Kudos for @ThayerTR)
+- Initiative tracker will honour dex tiebreaker if using dnd5e system (Kudos for @FleetfootMike)
+- Fixes an issue with destructuring in the rollparser 
+- Forien's copy environment won't copy ddb-game-log related settings anymore
+- Adds support for bug reporter, please use it to report bugs
+- Adds a missing partial
+- Adds a missing helper method to uiHelper
+- Adds a lot of minor fixes
+
 ## Version 1.4.0
 
 - Adds JB2A / Otigon's Automated Animations support
