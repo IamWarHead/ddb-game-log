@@ -16,6 +16,14 @@ module.exports = `
     <p class="notes">It will remove the pending roll message automatically</p>
 </div>
 
+<div class="form-group">
+    <label>Exclude unmapped rolls</label>
+    <div class="form-fields">        
+        <input type="checkbox" name="ddb-game-log.exclude_unmapped_rolls" {{#if coreSettings/integrations/rolls/excludeUnmapped}}checked{{/if}}/>
+    </div>
+    <p class="notes">It will exclude rolls from D&D Beyond characters who does not exist in the mapping</p>
+</div>
+
 {{#if (checkMembershipLevel coreSettings/membership 1)}}
     <div class="form-group">
         <label>Respect D&D Beyond roll targets</label>
