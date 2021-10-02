@@ -1,5 +1,9 @@
 # Version history
 
+## Version 1.4.2
+
+- Fixes a blocker issue when JB2A / AA integration was preventing chat message creation.
+
 ## Version 1.4.1
 
 - Fixes JB2A / Otigon's AA integration on attack rolls
