@@ -65,7 +65,7 @@ D&D Beyond closes websocket connection every 2 hours so its a proper working mec
 
 ## Known incompatibilities
 
-:exclamation: Beyond20 unfortunately blocking the Game Log feature of DND Beyond (even version 2.5.0), it is not passing the proper roll data to the socket server. In addition to this **you have to disable the Beyond20 Chrome Extension and the module too** or DDB Gamelog won't be able to display your rolls.
+:exclamation: Beyond20 unfortunately blocking the Game Log feature of DND Beyond (version 2.5.0 too), it is not passing the proper roll data to the socket server. In addition to this **you have to disable the Beyond20 Chrome Extension and the module too** or DDB Gamelog won't be able to display your rolls.
 
 :exclamation: Users have noticed some problems when using the module in Forge instances. Issues are under investigation currently.
 
