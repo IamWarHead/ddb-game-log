@@ -17,7 +17,7 @@ Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease.
 
 - Real-time character updates from desktop and mobile without any browser extension.
 
-** Supported attributes**:
+**Supported attributes**:
 -  Hit points
 - Inspiration point
 - Exhaustion level
