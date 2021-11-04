@@ -1,5 +1,19 @@
 # Version history
 
+## Version 1.5.0
+
+- Adds real-time character updates for the following attributes:
+  - Hit points
+  - Inspiration point
+  - Exhaustion level
+  - Death save values
+  - Experience points
+  - Character level (supports multi-classes)
+  - Damage Resistances
+  - Damage Immunities
+  - Condition Immunities
+  - Damage vulnerabilities
+
 ## Version 1.4.2
 
 - Fixes a blocker issue when JB2A / AA integration was preventing chat message creation.

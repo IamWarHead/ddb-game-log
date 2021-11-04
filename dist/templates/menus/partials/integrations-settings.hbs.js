@@ -11,6 +11,7 @@ module.exports = `
         {{/if}}
         {{#if (checkMembershipLevel coreSettings/membership 2)}}
             {{> partials/settings/integrations/playerapp}}
+            {{> partials/settings/integrations/characterupdater}}
             {{> partials/settings/integrations/dicesonice}}
             {{> partials/settings/integrations/jb2a}}
             {{> partials/settings/integrations/discord}}
