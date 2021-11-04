@@ -15,10 +15,27 @@ Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease.
 
 ## New Features:
 
-- D&D Beyond Targeted rolls support
+- Real-time character updates from desktop and mobile without any browser extension.
+
+** Supported attributes**:
+-  Hit points
+- Inspiration point
+- Exhaustion level
+- Death save values
+- Experience points
+- Character level (supports multi-classes)
+- Damage Resistances
+- Damage Immunities
+- Condition Immunities
+- Damage vulnerabilities
+
+**Upcoming attributes**:
+- Conditions and effects
+
 
 ## Features:
 
+- D&D Beyond Targeted rolls support
 - Displaying rolls from D&D Beyond (Desktop)
 - Displaying rolls from D&D Beyond Player App* (Mobile / Tablet / iOS, Android)
 - Displaying pending rolls (optional)

@@ -1,32 +1,30 @@
 {
-    "name": "ddb-game-log",
-    "author": "IamWarHead",
-    "title": "D&D Beyond Gamelog",
-    "description": "D&D Beyond Game log client",
-    "version": "1.4.2",
-    "download": "https://github.com/IamWarHead/ddb-game-log/releases/download/1.4.2/ddb-game-log.zip",
-    "manifest": "https://github.com/IamWarHead/ddb-game-log/releases/latest/download/module.json",
-    "url": "https://github.com/IamWarHead/ddb-game-log",
-    "minimumCoreVersion": "0.8.3",
-    "compatibleCoreVersion": "0.8.9",
-    "authors": [
-      {
-        "name": "IamWarHead",
-        "email": "warhead@warhead.hu",
-        "url": "http://warhead.hu"
-      }
-    ],
-    "systems": ["dnd5e"],
-    "esmodules": ["dist/main.js"],
-    "styles": [
-      "./dist/ddb-game-log.css"
-    ],
-    "packs": [],
-    "socket": true,
-    "dependencies": [],
-    "bugs": "https://github.com/IamWarHead/ddb-game-log/issues",
-    "flags": {
-      "allowBugReporter": true,
-      "noCopyEnvironmentSettings": true
+  "name": "ddb-game-log",
+  "author": "IamWarHead",
+  "title": "D&D Beyond Gamelog",
+  "description": "D&D Beyond Game log client",
+  "version": "1.5.0",
+  "download": "https://github.com/IamWarHead/ddb-game-log/releases/download/1.5.0/ddb-game-log.zip",
+  "manifest": "https://github.com/IamWarHead/ddb-game-log/releases/latest/download/module.json",
+  "url": "https://github.com/IamWarHead/ddb-game-log",
+  "minimumCoreVersion": "0.8.3",
+  "compatibleCoreVersion": "0.8.9",
+  "authors": [
+    {
+      "name": "IamWarHead",
+      "email": "warhead@warhead.hu",
+      "url": "http://warhead.hu"
     }
+  ],
+  "system": ["dnd5e"],
+  "esmodules": ["dist/main.js"],
+  "styles": ["./dist/ddb-game-log.css"],
+  "packs": [],
+  "socket": true,
+  "dependencies": [],
+  "bugs": "https://github.com/IamWarHead/ddb-game-log/issues",
+  "flags": {
+    "allowBugReporter": true,
+    "noCopyEnvironmentSettings": true
   }
+}
