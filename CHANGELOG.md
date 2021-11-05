@@ -1,5 +1,14 @@
 # Version history
 
+## Version 1.5.1
+
+- Adds real-time character condition updates
+- Adds a checkbox to respect custom (non-ddb) conditions on the entities
+- Adds block separators to character updater settings
+- Fixes a small issue with the character updater
+- Fixes an issue with Dice So Nice! integration
+- Adds logging to patreon authorization process to be able to address an issue reporter by @luette (Big thanks!)
+
 ## Version 1.5.0
 
 - Adds real-time character updates for the following attributes:

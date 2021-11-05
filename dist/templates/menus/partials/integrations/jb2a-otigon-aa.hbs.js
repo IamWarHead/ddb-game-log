@@ -1,7 +1,7 @@
 module.exports = `
     <h2 class="module-header">JB2A/Otigon AA Integration</h2>
     {{#unless coreSettings/integrations/jb2a/moduleEnabled}}
-        <p class="notification warning">JB2A and/or Otigon's Automated Animations module is not installed or enabled. Please install and enable them to be able to use this integration.</p>
+        <p class="notification error">JB2A and/or Otigon's Automated Animations module is not installed or enabled. Please install and enable them to be able to use this integration.</p>
     {{/unless}}
     <div class="form-group">
         <label>Enable automated animations</label>

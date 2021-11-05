@@ -2,7 +2,7 @@ module.exports = `
 {{!-- Dice So Nice integration --}}
 <h2 class="module-header">Dice So Nice! Integration</h2>
 {{#unless coreSettings/integrations/dice3d/moduleEnabled}}
-    <p class="notification warning">Dice So Nice module is not installed or enabled. Please install and enable it to be able to use this integration.</p>
+    <p class="notification error">Dice So Nice module is not installed or enabled. Please install and enable it to be able to use this integration. <a href="https://foundryvtt.com/packages/dice-so-nice" target="_blank" style="color: #ffcc00; text-decoration: none;"><i class="fas fa-download"></i> Download the Dice so Nice! module</a></p>
 {{/unless}}
 <div class="form-group">
     <label>Enable Dice So Nice! Integration</label>
