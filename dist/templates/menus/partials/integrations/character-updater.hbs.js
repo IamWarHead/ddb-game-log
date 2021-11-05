@@ -54,6 +54,7 @@ module.exports = `
       </div>
       <p class="notes">It will synchronize the character level changes.</p>
   </div>
+  <h2 class="module-header">Defenses Updater (Beta)</h2>
   <div class="form-group">
       <label>Enable damage resistances updates</label>
       <div class="form-fields">        
@@ -81,6 +82,30 @@ module.exports = `
           <input type="checkbox" name="ddb-game-log.enable_condition_immunities_updates" {{#if coreSettings/integrations/characterUpdater/conditionImmunities}}checked{{/if}}/>
       </div>
       <p class="notes">It will synchronize the condition immunities changes of the character.</p>
+  </div>
+  <h2 class="module-header">Condition Updater (Beta)</h2>
+  <div class="form-group">
+    {{#unless coreSettings/integrations/cub/installedAndEnabled}}
+        {{#unless coreSettings/integrations/cub/enabled}}
+          <p class="notification error">Combat Utility Belt module is not installed or enabled. Please install and enable it to be able to use this feature. <a href="https://foundryvtt.com/packages/combat-utility-belt" target="_blank" style="color: #ffcc00; text-decoration: none;"><i class="fas fa-download"></i> Download the Combat Utility Belt module</a></p>
+        {{else}}
+          <p class="notification warning">You have to enable Enhanced Conditions in Combat Utility Belt settings to be able to use this feature.</p>
+        {{/unless}}
+      {{/unless}}
+  </div>
+  <div class="form-group">
+      <label>Enable condition updates</label>
+      <div class="form-fields">        
+          <input type="checkbox" name="ddb-game-log.enable_conditions_updates" {{#unless coreSettings/integrations/cub/installedAndEnabled}}disabled{{/unless}} {{#if coreSettings/integrations/characterUpdater/conditions}}checked{{/if}}/>
+      </div>
+      <p class="notes">It will synchronize the conditions changes of the character.</p>
+  </div>
+  <div class="form-group">
+      <label>Respect custom conditions</label>
+      <div class="form-fields">        
+          <input type="checkbox" name="ddb-game-log.enable_respect_custom_conditions" {{#unless coreSettings/integrations/cub/installedAndEnabled}}disabled{{/unless}} {{#if coreSettings/integrations/characterUpdater/respectCustomConditions}}checked{{/if}}/>
+      </div>
+      <p class="notes">It will not remove custom conditions from the entity when updating his/her conditions from D&D Beyond.</p>
   </div>
 {{/if}}
 `;

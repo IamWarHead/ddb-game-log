@@ -16,6 +16,8 @@ Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease.
 ## New Features:
 
 - Real-time character updates from desktop and mobile without any browser extension.
+- Real-time character condition updates from desktop and mobile without any browser extension.
+* (Updating conditions on the entities requires Combat Utility Belt module and it's Enhanced Conditions feature installed and enabled.
 
 **Supported attributes**:
 -  Hit points
@@ -28,10 +30,7 @@ Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease.
 - Damage Immunities
 - Condition Immunities
 - Damage vulnerabilities
-
-**Upcoming attributes**:
-- Conditions and effects
-
+- Conditions and effects [*condition updates requires Combat Utility Belt module]
 
 ## Features:
 
