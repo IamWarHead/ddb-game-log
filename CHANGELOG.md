@@ -1,5 +1,9 @@
 # Version history
 
+## Version 1.5.2
+
+- Fixes an issue with the condition updater (Kudos for @JacksonBockus and @DavidJott for reporting the issue) 
+
 ## Version 1.5.1
 
 - Adds real-time character condition updates
