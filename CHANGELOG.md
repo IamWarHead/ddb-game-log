@@ -1,5 +1,9 @@
 # Version history
 
+## Version 1.5.3
+
+- Fixes an issue with the character updater
+
 ## Version 1.5.2
 
 - Fixes an issue with the condition updater (Kudos for @JacksonBockus and @DavidJott for reporting the issue) 
