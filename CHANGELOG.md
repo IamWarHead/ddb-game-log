@@ -1,5 +1,9 @@
 # Version history
 
+## Version 1.5.4
+
+- Small fixes and improvements
+
 ## Version 1.5.3
 
 - Fixes an issue with the character updater
