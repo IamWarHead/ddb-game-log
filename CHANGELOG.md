@@ -1,5 +1,9 @@
 # Version history
 
+## Version 1.5.6
+
+- Fixes an issue with AA integration when animations were not triggering. Kudos goes to @ocarlo3 for reporting the issue :beer:
+
 ## Version 1.5.5
 
 - Fixes an issue when a condition removal happened.
