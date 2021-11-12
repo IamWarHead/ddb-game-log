@@ -1,5 +1,9 @@
 # Version history
 
+## Version 1.5.5
+
+- Fixes an issue when a condition removal happened.
+
 ## Version 1.5.4
 
 - Small fixes and improvements
