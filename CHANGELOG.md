@@ -1,5 +1,10 @@
 # Version history
 
+## Version 1.5.7
+
+- Fixes an issue with AA integration when some rolls were not displayed due to a failed if statement. Kudos for @casanova for the report!
+- There are some error messages by Otigon's AA when pending rolls happens, issue has been reported, pull request has been made in their repo.
+
 ## Version 1.5.6
 
 - Fixes an issue with AA integration when animations were not triggering. Kudos goes to @ocarlo3 for reporting the issue :beer:
