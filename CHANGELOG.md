@@ -1,5 +1,9 @@
 # Version history
 
+##Version 1.5.8
+
+- Fixes an issue with AA integration: Some animations were not triggering. Kudos for @zamrod for the report.
+
 ## Version 1.5.7
 
 - Fixes an issue with AA integration when some rolls were not displayed due to a failed if statement. Kudos for @casanova for the report!
