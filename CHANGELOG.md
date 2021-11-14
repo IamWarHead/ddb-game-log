@@ -1,6 +1,6 @@
 # Version history
 
-##Version 1.5.8
+## Version 1.5.8
 
 - Fixes an issue with AA integration: Some animations were not triggering. Kudos for @zamrod for the report.
 
