@@ -13,6 +13,7 @@ module.exports = `
             {{> partials/settings/integrations/playerapp}}
             {{> partials/settings/integrations/characterupdater}}
             {{> partials/settings/integrations/dicesonice}}
+            {{> partials/settings/integrations/midiqol}}
             {{> partials/settings/integrations/jb2a}}
             {{> partials/settings/integrations/discord}}
             {{> partials/settings/integrations/chatcards}}

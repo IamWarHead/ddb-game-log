@@ -1,5 +1,21 @@
 # Version history
 
+## Version 1.6.0
+
+- Adds midi-qol support (experimental): 
+  - Good to know:
+    - You have to enable Midi integration both in ddb-game-log (in the core settings / integrations panel) and in MidiQoL 
+    in the experimental features area
+    - You have to set up the mapping properly
+    - You need to import both the characters and monsters with ddb-importer from dnd beyond to get this integration working.
+  - Known issues:
+    - Spells without attack/damage (like fly) won't work with midi. I am still looking for a solution.
+- Adds [ pan to token / open character sheet / open character sheet on dnd beyond ] on avatar or character name click
+- Fixes an issue with message border color override (Thanks @MorningStarZero :beer:)
+- Fixes an issue with character and condition updater
+- Optimised item lookup
+- Optimised item and spell descriptions lookup
+
 ## Version 1.5.8
 
 - Fixes an issue with AA integration: Some animations were not triggering. Kudos for @zamrod for the report.

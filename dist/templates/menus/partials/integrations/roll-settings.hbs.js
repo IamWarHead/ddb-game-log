@@ -24,6 +24,19 @@ module.exports = `
     <p class="notes">It will exclude rolls from D&D Beyond characters who does not exist in the mapping</p>
 </div>
 
+<div class="form-group">
+    <label>Character name click behaviour</label>
+    <div class="form-fields">
+        <select name="ddb-game-log.character_name_click_behaviour_gm">
+            <option value="nothing" {{isSelected coreSettings/integrations/rolls/characterNameClickBehaviourGM "nothing"}}>Do nothing</option>
+            <option value="ptt" {{isSelected coreSettings/integrations/rolls/characterNameClickBehaviourGM "ptt"}}>Pan to token</option>
+            <option value="openSheet" {{isSelected coreSettings/integrations/rolls/characterNameClickBehaviourGM "openSheet"}}>Open character sheet (Foundry)</option>
+            <option value="openDDBSheet" {{isSelected coreSettings/integrations/rolls/characterNameClickBehaviourGM "openDDBSheet"}}>Open character sheet (D&D Beyond)</option>
+        </select>
+    </div>
+    <p class="notes">You can select what should happen if someone clicks on the character name on the chatcard.</p>
+</div>
+
 {{#if (checkMembershipLevel coreSettings/membership 1)}}
     <div class="form-group">
         <label>Respect D&D Beyond roll targets</label>
