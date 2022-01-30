@@ -1,5 +1,9 @@
 # Version history
 
+## Version 1.6.2
+
+- Fixes the improper version number in the manifest file
+
 ## Version 1.6.1
 
 - Fixes an issue in the initiative trigger
