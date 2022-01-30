@@ -1,5 +1,13 @@
 # Version history
 
+## Version 1.6.1
+
+- Fixes an issue in the initiative trigger
+- Fixes an issue which rendered welcome message totally useless
+- Possible fixes an issue with the roll parsing and calculation when both values were the same.
+- Fixes an issue with Patreon Auth
+- Adds enhanced debug logs to be able to address a rare issue with MidiQOL
+
 ## Version 1.6.0
 
 - Adds midi-qol support (experimental): 
