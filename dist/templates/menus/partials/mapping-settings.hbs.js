@@ -68,4 +68,4 @@ module.exports = `
         </div>
         <div><hr></div>
     </div>
-`
+`;
