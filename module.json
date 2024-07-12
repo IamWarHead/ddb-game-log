@@ -4,14 +4,14 @@
   "author": "IamWarHead",
   "title": "D&D Beyond Gamelog",
   "description": "D&D Beyond Game log client",
-  "version": "2.1.10",
-  "download": "https://github.com/IamWarHead/ddb-game-log/releases/download/2.0.0/ddb-game-log.zip",
+  "version": "2.1.11",
+  "download": "https://github.com/IamWarHead/ddb-game-log/releases/download/2.1.11/ddb-game-log.zip",
   "manifest": "https://github.com/IamWarHead/ddb-game-log/releases/latest/download/module.json",
   "readme": "https://github.com/IamWarHead/ddb-game-log/blob/master/README.md",
   "changelog": "https://github.com/IamWarHead/ddb-game-log/blob/master/CHANGELOG.md",
   "url": "https://github.com/IamWarHead/ddb-game-log",
-  "minimumCoreVersion": "10.282",
-  "compatibleCoreVersion": "10",
+  "minimumCoreVersion": "12.327",
+  "compatibleCoreVersion": "12",
   "compatibility": {
     "minimum": "12.327",
     "verified": 12
