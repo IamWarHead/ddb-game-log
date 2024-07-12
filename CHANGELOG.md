@@ -1,5 +1,31 @@
 # Version history
 
+## Version 2.1.10
+
+- Fixes: MidiQol integration stopped working (Kudos to @tposney for his help)
+- Fixes: Malfunction with Entity mapping
+- Fixes: Various CSS issues
+- Fixes: Character updater is broken
+- Feat: CUB removed as a dependency, the module handles status and condition changes by itself from now
+- Fixes: Roll privacy feature is broken
+- Fixes: Cannot remove chat messages without active subscription
+- Fixes: Identical roll result (eg. with advantage) got summarised on backend
+- Fixes: Monster rolls stopped working properly
+- Fixes: Mobile rolls not working properly
+- Fixes: Condition and status changes not working from mobile
+- Fixes: Cannot reveal private rolls for players
+- Feat: Entity mapping rework
+- Feat: Hooks rework for midi qol integration
+- Fixes: Clients got disconnected when cleanup process started on backend
+- Fixes: Client does not get initial data package properly
+- Fixes: Authorization during handshake was not working properly and caused random disconnections
+- Feat: Trying to address random patreon deauthorizations
+- Fixes: Users were not able to open membership management panel
+- Fixes: Patreon authorization was declined in some cases because token was missing
+- Fixes: Connection stability with the backend
+- Fixes: Clients were not able to connect to the backend (maintenance mode flag stucked)
+- Fixes: Rolls displayed twice in the chat
+
 ## Version 2.0.0
 
 - Adds compatibility fixes for Foundry v1x
