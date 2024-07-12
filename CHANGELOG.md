@@ -2,6 +2,10 @@
 
 ## Version 2.1.10
 
+- Fixes: module.json
+
+## Version 2.1.10
+
 - Fixes: MidiQol integration stopped working (Kudos to @tposney for his help)
 - Fixes: Malfunction with Entity mapping
 - Fixes: Various CSS issues
