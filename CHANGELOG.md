@@ -1,6 +1,12 @@
 # Version history
 
-## Version 2.1.10
+## Version 2.2.0
+
+- Feat: Adds support for Armor Class changes to real-time status effect and condition syncing.
+- Feat: It is now possible to update the effects of the magic items worn by characters in real time. For example AC changes, resistances, invulnerabilites, etc.
+- Feat: Character mapping rework preparations
+
+## Version 2.1.11
 
 - Fixes: module.json
 
