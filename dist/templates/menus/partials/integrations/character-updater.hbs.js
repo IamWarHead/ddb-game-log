@@ -20,6 +20,13 @@ module.exports = `
       <p class="notes">It will synchronize the hit point changes of the characters.</p>
   </div>
   <div class="form-group">
+      <label>Enable armor class updates</label>
+      <div class="form-fields">        
+          <input type="checkbox" name="ddb-game-log.enable_ac_updates" {{#if coreSettings/integrations/characterUpdater/acsync}}checked{{/if}}/>
+      </div>
+      <p class="notes">It will synchronize the armor class changes of the characters.</p>
+  </div>
+  <div class="form-group">
       <label>Enable exhaustion level updates</label>
       <div class="form-fields">        
           <input type="checkbox" name="ddb-game-log.enable_exhaustion_updates" {{#if coreSettings/integrations/characterUpdater/exhaustion}}checked{{/if}}/>
