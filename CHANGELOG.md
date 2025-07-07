@@ -1,5 +1,11 @@
 # Version history
 
+## Version 2.4.0
+
+- Feat: Adds support for Foundry v13+
+- Feat: Changes uid generation and storage, i hope it will fix the need of reauth with patreon every time
+- Fixes: 121 various bugs
+
 ## Version 2.2.0
 
 - Feat: Adds support for Armor Class changes to real-time status effect and condition syncing.
