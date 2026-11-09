@@ -1,0 +1,103 @@
+name: Bug report
+description: Something in the module does not work
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting. Please do not put your cobalt cookie (`CobaltSession`),
+        a Discord webhook URL or any other secret in this report.
+        If you would rather talk it through, use [Discord](https://discord.com/invite/HSTtrphyFg).
+
+  - type: input
+    id: module-version
+    attributes:
+      label: Module version
+      description: Gamelog Config → Debug panel, for example 3.0.0.
+      placeholder: 3.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: foundry-version
+    attributes:
+      label: Foundry VTT version
+      description: At the bottom of the Game Settings sidebar tab.
+      placeholder: "14.369"
+    validations:
+      required: true
+
+  - type: input
+    id: system-version
+    attributes:
+      label: dnd5e version
+      placeholder: 6.0.6
+    validations:
+      required: true
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: You were
+      options:
+        - GM, this browser relays
+        - GM, another GM relays
+        - Player
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: What you did
+      description: Step by step, so it can be reproduced.
+      placeholder: |
+        1. Rolled an attack on the D&D Beyond website
+        2. Looked at Foundry chat
+    validations:
+      required: true
+
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+
+  - type: textarea
+    id: console
+    attributes:
+      label: Errors in the browser console
+      description: F12 → Console, the red lines, especially any mentioning `ddb-game-log`. Keep the whole message.
+      render: text
+
+  - type: textarea
+    id: report
+    attributes:
+      label: Support report
+      description: Gamelog Config → Debug panel → Copy support report. It contains no secrets.
+      render: text
+
+  - type: textarea
+    id: modules
+    attributes:
+      label: Other modules
+      description: Anything that could be involved, for example ddb-importer, Midi-QoL, Dice So Nice.
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Before you send
+      options:
+        - label: I am on the newest version, or I say above which one I am on.
+          required: true
+        - label: There is no cobalt cookie, webhook URL or other secret in this report.
+          required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discord
+    url: https://discord.com/invite/HSTtrphyFg
+    about: Questions, help and feedback. No GitHub account needed.
+  - name: Documentation
+    url: https://iamwarhead.github.io/ddb-game-log/
+    about: Install, first steps, features and troubleshooting.
