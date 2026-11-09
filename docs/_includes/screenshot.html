@@ -1,0 +1,9 @@
+{%- comment -%}
+Renders a screenshot only when the file is present, so pages stay clean while
+assets/img is still being filled in.
+{%- endcomment -%}
+{%- assign path = '/assets/img/' | append: include.src -%}
+{%- assign file = site.static_files | where: 'path', path | first -%}
+{%- if file -%}
+<p><img src="{{ path | relative_url }}" alt="{{ include.alt }}"></p>
+{%- endif -%}
