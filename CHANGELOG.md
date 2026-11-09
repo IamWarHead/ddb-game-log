@@ -1,5 +1,26 @@
 # Version history
 
+## Version 3.0.0
+
+A complete rewrite of the module and its server. Uninstall version 2 before you install version 3, see the [documentation](https://iamwarhead.github.io/ddb-game-log/install.html#coming-from-version-2).
+
+- Feat: Foundry v13 and v14, dnd5e 5 and 6
+- Feat: Real dnd5e rolls in chat, with kept and dropped dice and critical hits and fumbles as D&D Beyond decided them
+- Feat: Roll result breakdown, targeted rolls and roll privacy are free for everyone
+- Feat: Hit and miss against targets, and applying damage and healing from the card
+- Feat: Live character updates (hit points, armor class, conditions, resistances and more), monster rolls and rolls from the D&D Beyond player app (PRO)
+- Feat: Automatisms (PRO, experimental): spell templates, an effect tray and usage buttons on cards, replacing the DDB Bridge tweaks
+- Feat: D&D Beyond combat tracker in Foundry (PRO, experimental)
+- Feat: Statistics (Basic and PRO): party overview, highlights, checks, combat, luck, charts, awards, sessions, export and import, session recap and a player view
+- Feat: Roll history import from D&D Beyond (PRO)
+- Feat: Discord relay of public rolls and the session recap (PRO)
+- Feat: Midi-QoL integration (PRO, experimental), Dice So Nice, JB2A and Automated Animations
+- Feat: Gamelog Config window, translated to English, French, Hungarian, Brazilian Portuguese and Spanish
+- Feat: Legendary Patrons page and a notice when a newer version is out
+- Security: The cobalt cookie is kept in the GM browser only, never in the world and never sent to players
+- Security: A world belongs to the first D&D Beyond account that connects it; others cannot use or change its Patreon link or Discord webhook
+- Fixes: Patreon login finishes on the server, so it works in the Foundry desktop app and without a popup
+
 ## Version 2.4.0
 
 - Feat: Adds support for Foundry v13+
