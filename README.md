@@ -23,6 +23,7 @@ Requires Foundry VTT v13 or newer (v14 verified) and dnd5e 5.0.0 or newer. Comin
 - **Card look:** themes, player colours, avatars, item and spell links.
 - **Character sync (PRO):** hit points, armor class, conditions, resistances and more follow D&D Beyond live; apply damage and healing from the card.
 - **Monster rolls and the D&D Beyond player app (PRO).**
+- **Avrae rolls (PRO, experimental):** rolls made with the Avrae Discord bot, off by default.
 - **Automatisms (PRO, experimental):** spell templates, effects and usage buttons on cards.
 - **Combat tracker (PRO, experimental):** the D&D Beyond encounter in Foundry's tracker.
 - **Statistics:** party overview, highlights, luck, awards, charts, session history, import from D&D Beyond, export and a player view.

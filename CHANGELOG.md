@@ -8,6 +8,7 @@ A complete rewrite of the module and its server. Uninstall version 2 before you 
 - Feat: Real dnd5e rolls in chat, with kept and dropped dice and critical hits and fumbles as D&D Beyond decided them
 - Feat: Roll result breakdown, targeted rolls and roll privacy are free for everyone
 - Feat: Hit and miss against targets, and applying damage and healing from the card
+- Feat: Rolls made with the Avrae Discord bot (PRO, experimental, off by default)
 - Feat: Live character updates (hit points, armor class, conditions, resistances and more), monster rolls and rolls from the D&D Beyond player app (PRO)
 - Feat: Automatisms (PRO, experimental): spell templates, an effect tray and usage buttons on cards, replacing the DDB Bridge tweaks
 - Feat: D&D Beyond combat tracker in Foundry (PRO, experimental)

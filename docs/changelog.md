@@ -18,6 +18,7 @@ Version 3 is a complete rewrite of the module and its server. Coming from versio
 - Roll result breakdown, targeted rolls and roll privacy are now free for everyone.
 - Hit and miss against the targets, and damage and healing you apply from the card.
 - Chat cards with item and spell links, card themes, player colours and character avatars.
+- **Avrae rolls (PRO, experimental).** Rolls made with the Avrae Discord bot that D&D Beyond shows in its game log can appear as cards. Off by default, see **Show Avrae rolls** on the **Rolls & cards** page.
 
 **Characters**
 

@@ -24,6 +24,7 @@ When someone rolls on D&D Beyond in your connected campaign, the roll appears as
 | Item and spell links on cards | PRO |
 | Monster rolls | PRO |
 | Rolls from the D&D Beyond mobile app | PRO |
+| Rolls made with the Avrae Discord bot (experimental, off by default) | PRO |
 
 ## Pending cards and results
 
@@ -70,6 +71,18 @@ Rolls made for monsters in D&D Beyond also show up. (PRO)
 ## Rolls from the D&D Beyond mobile app
 
 Rolls made on the D&D Beyond website are free. Rolls made in the D&D Beyond mobile app (the one on your phone or tablet, including its dice roller) need PRO. Without PRO they simply do not arrive in Foundry.
+
+## Rolls made with Avrae (experimental)
+
+If your table rolls with the [Avrae](https://avrae.io) Discord bot, and the character is linked to D&D Beyond, D&D Beyond shows those rolls in its game log. Gamelog can relay them too, so `!check persuasion`, `!save con` or `!roll 1d20+5` appear as cards in Foundry chat. (PRO, experimental)
+
+It is **off by default**. Turn on **Show Avrae rolls** in **Gamelog Config → Rolls & cards → Avrae**.
+
+Known limits:
+
+- `!multiroll` does not reach D&D Beyond's game log, so Gamelog never sees it.
+- A death save rolled with Avrae does not update the death saves on the D&D Beyond character, so Foundry's death saves are not updated either. Roll death saves on D&D Beyond to have them synced.
+- Avrae rolls are not part of the roll history import.
 
 ## Good to know
 
