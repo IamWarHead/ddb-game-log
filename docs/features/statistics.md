@@ -39,7 +39,7 @@ Rolls made in Foundry itself (from character or NPC sheets) are counted only if 
 
 The **Time period** selector at the top picks the range: latest session, last 30 days, or all time. Checks & saves and Luck also have a **Character** selector (the whole party or one character), and so has the session history on the Sessions tab.
 
-Charts have a y axis, and hovering a bar or a data point shows its exact value. Longer explanations sit behind a small info icon: hover or tab to it.
+Charts have a y axis, and hovering a bar or a data point shows its exact value. Longer explanations sit behind a small info icon: hover or tab to it. Wide tables scroll sideways and cut long headings short; hover a heading for its full text.
 
 - **Overview**: the party at a glance (total rolls, d20 average, natural 20s and 1s, damage dealt, healing done), highlights (highest and lowest d20 average, most natural 20s and 1s, biggest hit, most damage, most healing) and a table per character. With PRO, also a table for monsters and others.
 
@@ -73,7 +73,7 @@ With **Show upgrade hints** on (**Gamelog Config → General**), the tabs your m
 
 ## Luck
 
-Luck is the d20 average minus the average the dice give for each roll's advantage mode. It evens out over many rolls. Per character it shows from 10 d20 rolls.
+Luck is the d20 average minus the average the dice give for each roll's advantage mode. It evens out over many rolls. Per character it shows from 10 d20 rolls; until a character has that many, the Luck tab says so.
 
 **Luck per skill** (PRO): on Checks & saves, every table (roll types, skills, ability checks, saving throws) has a Luck column, and each section a signed chart, using the same measure. It shows from 10 d20 rolls of a skill, and follows the **Character** selector, so you can see where one character's dice run hot or cold.
 

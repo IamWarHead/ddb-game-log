@@ -33,6 +33,7 @@ Each tier includes everything in the tiers below it. Gamelog MAX has the same fe
 | Item and spell links on cards | PRO |
 | Monster rolls | PRO |
 | Rolls from the D&D Beyond mobile app | PRO |
+| Rolls made with the Avrae Discord bot (experimental) | PRO |
 | Live character and condition updates | PRO |
 | Apply damage and healing from cards | PRO |
 | Automatisms: spell templates, effect tray and usage buttons on cards (experimental) | PRO |
