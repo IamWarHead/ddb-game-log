@@ -9,6 +9,7 @@
   "readme": "https://github.com/IamWarHead/ddb-game-log/blob/master/README.md",
   "changelog": "https://github.com/IamWarHead/ddb-game-log/blob/master/CHANGELOG.md",
   "url": "https://github.com/IamWarHead/ddb-game-log",
+  "license": "https://github.com/IamWarHead/ddb-game-log/blob/master/LICENSE.md",
   "compatibility": {
     "minimum": "12.330",
     "verified": "13.346",

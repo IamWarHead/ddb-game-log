@@ -46,4 +46,4 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 ## Copyright
 
-(c) 2021-2026 Roland Hegedus. All rights reserved, see [LICENSE.md](LICENSE.md).
+(c) 2021-2026 Roland Hegedus. All rights reserved, not open source, see [LICENSE.md](LICENSE.md).
