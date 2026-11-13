@@ -5,7 +5,7 @@ nav_order: 3
 
 # First steps: connect your world
 
-You do these steps once, as the GM, in the browser you normally use for Foundry. Open **Game Settings → Configure Settings → D&D Beyond Gamelog → Open Gamelog Config** and go to the **Connection** page.
+You do these steps once, as the GM, in the browser you normally use for Foundry. Open **Game Settings → Configure Settings → DDB Gamelog → Open Gamelog Config** and go to the **Connection** page.
 
 {: .note }
 Once the module is active, GMs also get a **dragon button** in the sidebar, above the Settings tab, that opens Gamelog Config directly. You can switch it off under **Gamelog Config → General → Interface → Gamelog button in the sidebar**. The setting is remembered per browser.

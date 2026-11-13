@@ -1,5 +1,5 @@
-title: D&D Beyond Gamelog
-description: Documentation for D&D Beyond Gamelog v3 (Foundry VTT module).
+title: DDB Gamelog
+description: Documentation for DDB Gamelog v3 (Foundry VTT module).
 url: https://iamwarhead.github.io
 baseurl: /ddb-game-log
 
@@ -23,7 +23,7 @@ aux_links:
   Discord: https://discord.com/invite/HSTtrphyFg
   Patreon: https://www.patreon.com/iamwarhead/
 
-footer_content: "D&D Beyond Gamelog by Roland Hegedus. All rights reserved."
+footer_content: "DDB Gamelog by Roland Hegedus. All rights reserved."
 
 callouts:
   warning:

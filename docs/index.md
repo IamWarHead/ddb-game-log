@@ -4,9 +4,9 @@ nav_order: 1
 permalink: /
 ---
 
-# D&D Beyond Gamelog
+# DDB Gamelog
 
-D&D Beyond Gamelog (module id `ddb-game-log`) brings your D&D Beyond game log into Foundry VTT. Rolls made on D&D Beyond show up as chat cards in your Foundry world, with no browser extension.
+DDB Gamelog (module id `ddb-game-log`) brings your D&D Beyond game log into Foundry VTT. Rolls made on D&D Beyond show up as chat cards in your Foundry world, with no browser extension.
 
 This site documents **version 3**. You are a Foundry GM or a player in a GM's world; you do not need to know anything about code.
 
