@@ -1,4 +1,4 @@
-# D&D Beyond Gamelog
+# DDB Gamelog
 
 Bridge your D&D Beyond rolls and characters to Foundry VTT. **No browser extension required.**
 
@@ -8,7 +8,7 @@ Rolls made on dndbeyond.com or in the D&D Beyond player app show up as chat card
 
 ## Install
 
-In Foundry, open **Add-on Modules → Install Module** and search for **D&D Beyond Gamelog**, or paste this manifest URL:
+In Foundry, open **Add-on Modules → Install Module** and search for **DDB Gamelog**, or paste this manifest URL:
 
 ```text
 https://github.com/IamWarHead/ddb-game-log/releases/latest/download/module.json

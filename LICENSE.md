@@ -1,4 +1,4 @@
-D&D Beyond Gamelog
+DDB Gamelog
 
 Copyright (c) 2021-2026 Roland Hegedus. All rights reserved.
 

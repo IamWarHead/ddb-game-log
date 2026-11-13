@@ -15,8 +15,8 @@ nav_order: 2
 ## Install
 
 1. In Foundry, open **Add-on Modules** and click **Install Module**.
-2. Search for **D&D Beyond Gamelog** and click **Install**.
-3. Open your world, go to **Game Settings → Manage Modules**, enable **D&D Beyond Gamelog** and save.
+2. Search for **DDB Gamelog** and click **Install**.
+3. Open your world, go to **Game Settings → Manage Modules**, enable **DDB Gamelog** and save.
 
 To install from the manifest instead, paste this URL into the **Manifest URL** field at the bottom of the install dialog:
 
@@ -30,11 +30,11 @@ Next: [First steps]({{ '/first-steps.html' | relative_url }}).
 
 ## Coming from version 2 {#coming-from-version-2}
 
-Version 3 and the v2 module share the same module id, so Foundry can hold only one of them at a time. If **D&D Beyond Gamelog** is already installed, remove it before you install version 3.
+Version 3 and the v2 module share the same module id, so Foundry can hold only one of them at a time. If **DDB Gamelog** is already installed, remove it before you install version 3.
 
 1. Back up your world, or make a copy with **Duplicate World** in Foundry's **Game Worlds** list. Version 3 writes to your actors (hit points, conditions, initiative, combats) when you use the character sync, and that is not something you can undo in the middle of a session.
 2. Close your world, so no world has the module active.
-3. In **Add-on Modules**, find **D&D Beyond Gamelog** and uninstall it.
+3. In **Add-on Modules**, find **DDB Gamelog** and uninstall it.
 4. Restart Foundry if it still lists the old version.
 5. Install version 3 as described above.
 
@@ -58,7 +58,7 @@ More languages are on the way, and the translation files will be opened up so th
 
 ## Update
 
-Update **D&D Beyond Gamelog** like any other module: open **Add-on Modules** in Foundry and update it. Check the [Changelog]({{ '/changelog.html' | relative_url }}) to see what changed.
+Update **DDB Gamelog** like any other module: open **Add-on Modules** in Foundry and update it. Check the [Changelog]({{ '/changelog.html' | relative_url }}) to see what changed.
 
 The module shows its version on its Debug page: **Gamelog Config → Debug panel**.
 

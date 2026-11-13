@@ -1,8 +1,8 @@
 {
   "id": "ddb-game-log",
   "name": "ddb-game-log",
-  "title": "D&D Beyond Gamelog",
-  "description": "D&D Beyond Game log client",
+  "title": "DDB Gamelog",
+  "description": "DDB Gamelog client",
   "version": "2.4.0",
   "download": "https://github.com/IamWarHead/ddb-game-log/releases/download/2.4.0/ddb-game-log.zip",
   "manifest": "https://github.com/IamWarHead/ddb-game-log/releases/latest/download/module.json",
