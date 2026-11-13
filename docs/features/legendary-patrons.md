@@ -39,4 +39,5 @@ You stay on the list, in the second group, under "And those who were". Nothing t
 ## Good to know
 
 - The list is served by the Gamelog server and cached for a few minutes, so a change can take a moment to appear for other people.
-- If the list cannot be loaded, the page says so; it has no effect on anything else in the module.
+- While a change is being saved the button reads **Saving…** and cannot be pressed again. If the server does not confirm it, the page says "Your entry did not change. Try again in a moment." and you can repeat it.
+- If the list cannot be loaded, the page says so and offers **Try again**. It does not retry by itself, and it has no effect on anything else in the module.
