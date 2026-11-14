@@ -1,4 +1,4 @@
-# DDB Gamelog
+![DDB Gamelog for Foundry VTT](docs/assets/img/gamelog-hero-fvtt.png)
 
 Bridge your D&D Beyond rolls and characters to Foundry VTT. **No browser extension required.**
 
