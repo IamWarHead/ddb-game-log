@@ -14,6 +14,19 @@ Once the module is active, GMs also get a **dragon button** in the sidebar, abov
 
 {% include screenshot.html src="connection.png" alt="Connection page" %}
 
+## The welcome tour {#welcome-tour}
+
+The first time the module starts in a world, GMs get a **Welcome to DDB Gamelog** window. Players never see it. It has four steps:
+
+- **Welcome**: what DDB Gamelog does.
+- **Quick start**: the five steps on this page (log in, pick your campaign, link Patreon, link your characters, make a roll). Each step ticks itself off when it is done, and its button opens the right page of Gamelog Config. Steps that need the Gamelog server are marked **Needs connection** while this browser is not connected. If another GM's browser relays for the world, the window says so.
+- **Membership**: your plan and what each plan includes.
+- **What's new**: the highlights of the newest release.
+
+The window opens on every start until you click **Get started** on the last step or tick **Don't show again**. The answer is stored in the world, so every GM of the world sees the same. Reopen the tour any time with **Welcome tour** on the **Overview** page of Gamelog Config.
+
+After an update, the window opens once on the **What's new** step with what changed since the version you last ran, even if you ticked **Don't show again**.
+
 ## 1. Log in to D&D Beyond with your cobalt cookie
 
 The cobalt cookie is a small piece of text that D&D Beyond gives your browser when you log in. It is called `CobaltSession`. Gamelog uses it to read your game log on your behalf.
@@ -70,3 +83,13 @@ Your players' characters should be linked to their D&D Beyond characters, so rol
 ## Check that it works
 
 Roll something on D&D Beyond in the campaign you picked. A card should appear in Foundry chat. If not, see [Troubleshooting]({{ '/troubleshooting.html' | relative_url }}).
+
+## Notifications {#notifications}
+
+The module shows its messages, such as "Membership updated" or a connection error, in a **Gamelog notification bar** of its own. Under **Gamelog Config → General → Interface** you choose:
+
+- **Gamelog notification bar**: switch it off to get the messages as Foundry's notifications instead.
+- **Notification position**: top or bottom, left, centered (the default) or right.
+- **How long a notification stays**: 4, 8 (the default) or 15 seconds, or until you close it. Important messages, such as a connection error, always stay until you close them.
+
+These settings are remembered per browser.
