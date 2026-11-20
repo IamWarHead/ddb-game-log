@@ -1,5 +1,14 @@
 # Version history
 
+## Version 3.2.0
+
+- Feat: Plans & benefits on the Connection page: compare what Basic, PRO and MAX include and see where your membership stands
+- Feat: The Welcome tour has a section of its own on the Overview page
+- Feat: What's new button on the version card of the Support page (GM only)
+- Feat: Tier badges on the plans of the welcome tour; the plans included in your membership are marked as such
+- Fix: Opening the welcome tour while it is already open brings it to the front
+- Fix: No error when a pending roll card is removed while the chat panel is hidden
+
 ## Version 3.1.0
 
 - Feat: Welcome tour on the first start: what DDB Gamelog does, a quick start checklist that ticks itself off, your membership and what each plan includes. Reopen it any time with the Welcome tour button on the Overview page

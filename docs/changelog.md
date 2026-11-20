@@ -7,6 +7,15 @@ nav_order: 10
 
 Newest first. Update the module in Foundry to get a release, see [Install]({{ '/install.html' | relative_url }}#update). The history of version 2 is in the [CHANGELOG.md](https://github.com/IamWarHead/ddb-game-log/blob/master/CHANGELOG.md) of the repository.
 
+## Version 3.2.0
+
+- **Plans & benefits.** **Compare the plans** on the **Connection** page opens the welcome tour on its **Membership** step, to see what Basic, PRO and MAX include and where your membership stands, see [First steps]({{ '/first-steps.html' | relative_url }}#welcome-tour).
+- **Welcome tour section.** The **Overview** page has a **Welcome tour** section of its own, with an **Open the tour** button.
+- **What's new button.** The module version card of the **Debug panel** has a **What's new** button (GM only).
+- **Tier badges.** The plans of the welcome tour carry a tier badge, and the plans included in your membership are marked as such.
+- Fixed: opening the welcome tour while it is already open brings it to the front.
+- Fixed: no error when a pending roll card is removed while the chat panel is hidden.
+
 ## Version 3.1.0
 
 - **Welcome tour.** On the first start the GM gets a short tour: what DDB Gamelog does, a quick start checklist that ticks itself off, your membership and what each plan includes. Reopen it any time with **Welcome tour** on the **Overview** page, see [First steps]({{ '/first-steps.html' | relative_url }}#welcome-tour).
