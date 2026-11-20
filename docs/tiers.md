@@ -16,6 +16,8 @@ Gamelog features depend on your Patreon membership.
 
 Each tier includes everything in the tiers below it. Gamelog MAX has the same features as Gamelog PRO; what you get on top of them is priority support, Discord roles and early access to new builds.
 
+In Foundry, **Compare the plans** on the **Connection** page of Gamelog Config shows the plans side by side, with your current one highlighted.
+
 ## Features by tier
 
 | Feature | Tier |

@@ -20,10 +20,10 @@ The first time the module starts in a world, GMs get a **Welcome to DDB Gamelog*
 
 - **Welcome**: what DDB Gamelog does.
 - **Quick start**: the five steps on this page (log in, pick your campaign, link Patreon, link your characters, make a roll). Each step ticks itself off when it is done, and its button opens the right page of Gamelog Config. Steps that need the Gamelog server are marked **Needs connection** while this browser is not connected. If another GM's browser relays for the world, the window says so.
-- **Membership**: your plan and what each plan includes.
-- **What's new**: the highlights of the newest release.
+- **Membership**: your plan and what each plan includes. Open the tour right on this step with **Compare the plans** on the **Connection** page.
+- **What's new**: the highlights of the newest release. Open the tour right on this step with the sparkle button on the module version card of the **Debug panel**.
 
-The window opens on every start until you click **Get started** on the last step or tick **Don't show again**. The answer is stored in the world, so every GM of the world sees the same. Reopen the tour any time with **Welcome tour** on the **Overview** page of Gamelog Config.
+The window opens on every start until you click **Get started** on the last step or tick **Don't show again**. The answer is stored in the world, so every GM of the world sees the same. Reopen the tour any time with **Open the tour** in the **Welcome tour** section of the **Overview** page of Gamelog Config.
 
 After an update, the window opens once on the **What's new** step with what changed since the version you last ran, even if you ticked **Don't show again**.
 
@@ -64,7 +64,7 @@ A Foundry world belongs to the first D&D Beyond account that connects it. If you
 
 Linking Patreon unlocks Basic, PRO or MAX features in this world. You can skip this step: the Free tier works without it, see [Tiers]({{ '/tiers.html' | relative_url }}).
 
-On the Connection page, use the membership section to log in with Patreon. When it works, the page shows that the world is linked to your membership and its tier. Changes on Patreon apply within seconds.
+On the Connection page, use the membership section to log in with Patreon. When it works, the page shows that the world is linked to your membership and its tier. Changes on Patreon apply within seconds. To see what each plan includes, and where yours stands, use **Compare the plans** right below.
 
 {% include screenshot.html src="patreon-link-before.png" alt="Membership section before linking Patreon" %}
 

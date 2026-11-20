@@ -60,7 +60,7 @@ More languages are on the way, and the translation files will be opened up so th
 
 Update **DDB Gamelog** like any other module: open **Add-on Modules** in Foundry and update it. Check the [Changelog]({{ '/changelog.html' | relative_url }}) to see what changed. After an update the GM also gets the welcome window once, on its **What's new** step, with what changed since the version that ran before, see [The welcome tour]({{ '/first-steps.html' | relative_url }}#welcome-tour).
 
-The module shows its version on its Debug page: **Gamelog Config → Debug panel**.
+The module shows its version on its Debug page: **Gamelog Config → Debug panel**. The sparkle button on that card opens **What's new** for the running version.
 
 If the module tells you that your version is no longer supported, update it.
 
