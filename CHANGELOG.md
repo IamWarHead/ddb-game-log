@@ -1,5 +1,13 @@
 # Version history
 
+## Version 3.1.0
+
+- Feat: Welcome tour on the first start: what DDB Gamelog does, a quick start checklist that ticks itself off, your membership and what each plan includes. Reopen it any time with the Welcome tour button on the Overview page
+- Feat: What's new: after an update the welcome window shows what changed since the version you last ran
+- Feat: The update notice in Gamelog Config now lists the highlights of the new version
+- Feat: Gamelog notification bar: the module's messages in a bar of their own, with a choice of position and how long they stay (Foundry's notifications are used when it is off)
+- Feat: The Support page's documentation button is now called Module documentation
+
 ## Version 3.0.0
 
 A complete rewrite of the module and its server. Uninstall version 2 before you install version 3, see the [documentation](https://iamwarhead.github.io/ddb-game-log/install.html#coming-from-version-2).

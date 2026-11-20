@@ -7,6 +7,14 @@ nav_order: 10
 
 Newest first. Update the module in Foundry to get a release, see [Install]({{ '/install.html' | relative_url }}#update). The history of version 2 is in the [CHANGELOG.md](https://github.com/IamWarHead/ddb-game-log/blob/master/CHANGELOG.md) of the repository.
 
+## Version 3.1.0
+
+- **Welcome tour.** On the first start the GM gets a short tour: what DDB Gamelog does, a quick start checklist that ticks itself off, your membership and what each plan includes. Reopen it any time with **Welcome tour** on the **Overview** page, see [First steps]({{ '/first-steps.html' | relative_url }}#welcome-tour).
+- **What's new.** After an update the welcome window shows what changed since the version you last ran.
+- **Update highlights.** The update notice in Gamelog Config now lists the highlights of the new version.
+- **Gamelog notification bar.** The module's messages show in a bar of their own, with a choice of position and how long they stay. Switch it off to use Foundry's notifications, see [First steps]({{ '/first-steps.html' | relative_url }}#notifications).
+- The Support page's documentation button is now called **Module documentation**.
+
 ## Version 3.0.0
 
 Version 3 is a complete rewrite of the module and its server. Coming from version 2? Read [Coming from version 2]({{ '/install.html' | relative_url }}#coming-from-version-2) first: uninstall v2, then install v3.
